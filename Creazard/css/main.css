@@ -1,0 +1,210 @@
+body {
+	font-family: 'Exo 2', sans-serif;
+	padding: 0;
+	margin: 0;
+	font-size: 15px;
+	color: #000;
+}
+div, p, a, form, button{
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+ul, li{
+	box-sizing: border-box;
+}
+h2{
+  font-size: 32px;
+  font-weight: 800;
+  color: #ffe922;
+  line-height: 2px;
+  letter-spacing: normal;
+}
+.header{
+	background: #0a0224 url("../img/typeawaynumerodos-3@3x.png") no-repeat center top / cover;
+	color: #fff;
+	height: 100%;
+	min-height: 870px;	
+}
+.gradient{
+	width: 100%
+	max-width:1440px;
+    height: 160px;
+    background-image: linear-gradient(to bottom, #000000, rgba(0, 0, 0, 0.6) 35%, rgba(0, 0, 0, 0.19) 69%, rgba(0, 0, 0, 0.06) 84%, rgba(0, 0, 0, 0));
+}
+.rectangle{
+	width: 100%;
+	max-width: 5000px;
+	height: 100%;
+  	min-height: 870px;
+ 	background-color: rgba(0, 0, 0, 0.65);
+}
+.conteiner{
+	width: 100%;
+	max-width: 980px;
+	margin: 0 auto;
+}
+.space{
+	height: 22.5px;
+	width: 100%;
+}
+.info{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.logo{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.logo span{
+	width: 100%;
+	max-width: 280px;
+	line-height: 1.47
+	font-weight:500;
+	margin-left: 39px;
+}
+.creazard{
+  width: 126px;
+  height: 55px;
+  object-fit: contain;
+  padding-left: 0;
+}
+.key{
+	 width: 19px;
+  height: 8px;
+  object-fit: contain;
+}
+.manual{
+	text-align: right;
+	margin-right: 25px;
+}
+.manual a{
+	text-decoration: none;
+	text-align: right;
+	color: #fff;
+	font-size: 20px;
+	font-weight: 700;
+}
+.contacts{
+	display: flex;
+}
+.manual article{
+	margin-top: 5px;	
+	opacity: 0.65;
+}
+.firstbtn{
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: solid 2px #fcd644;
+    border-radius: 2px;
+    padding: 12px 30px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 15px;
+    cursor: pointer;
+    overflow: hidden;
+    outline:none;
+    }
+    .firstbtn:hover{
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: solid 2px #fcd644;
+    border-radius: 2px;
+    padding: 10px 28px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 15px;
+    cursor: pointer;
+    overflow: hidden;
+    outline:none;
+    margin: 2px;
+    }
+.line{
+    border-bottom: 1px solid;
+	color: #fff;
+	opacity: 0.3;
+	width: 100%;
+	max-width: 5000px;
+	margin-top: 22.5px;
+    }
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+    margin-top: 17px;
+    max-width: 926px;
+    width: 100%;
+}
+.navbar li{
+	font-weight: 700;
+	line-height: 1.47;
+ 	font-size: 	15px;
+}
+.navbar li.active a,
+.navbar li a:hover{
+	background-repeat:no-repeat;
+	padding: 7px 14px;
+	border-radius: 2px;
+    background-color: #ec5793;
+    font-weight: 700;
+    line-height: 1.47;
+    font-size: 15px;
+    cursor: pointer;
+    overflow: hidden;
+    outline:none;
+}
+.navbar li a{
+	color: 	#fff;
+}
+.offer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	width: 100%;
+}
+.stars{
+	margin-top: 109px;
+	width: 150px;
+	height: 27px;	
+}
+.offer span{
+  font-size: 32px;
+  font-weight: 800;
+  margin-top: 17px;
+}
+#offer{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	width: 180px;
+	margin:93px 25px 0px 25px;
+}
+.of_us{
+	display: flex;
+    justify-content: space-between;
+    align-items: center;	
+}
+#gradient{
+  margin-top: 105px;
+  object-fit: contain;
+  font-family: Exo2 sans-serif;
+  font-weight: 700;
+}
+#gradient:hover{
+	width: 360px;
+	height: 111px;
+	margin-bottom: 	5px;
+}
+.markets{
+   width: 71px;
+   height: 25px;
+   object-fit: contain;
+   margin-top: -9px;
+}

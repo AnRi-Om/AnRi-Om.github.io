@@ -161,6 +161,7 @@ h2{
     cursor: pointer;
     overflow: hidden;
     outline:none;
+    color: #fff;
 }
 .navbar li#active a:hover{
 	background-repeat:no-repeat;

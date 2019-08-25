@@ -67,15 +67,15 @@ h2{
 	margin-left: 39px;
 }
 .creazard{
-  width: 126px;
-  height: 55px;
-  object-fit: contain;
-  padding-left: 0;
+   width: 126px;
+   height: 55px;
+   object-fit: contain;
+   padding-left: 0;
 }
 .key{
- width: 19px;
-  height: 8px;
-  object-fit: contain;
+   width: 19px;
+   height: 8px;
+   object-fit: contain;
 }
 .manual{
 	text-align: right;
@@ -229,6 +229,7 @@ h2{
 	height: 121px;
 	transform: uppercase;
     cursor: pointer;
+    margin-top: -2.5px;
     overflow: hidden;
     outline:none;
 }

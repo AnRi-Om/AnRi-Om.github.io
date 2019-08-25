@@ -161,8 +161,9 @@ h2{
     cursor: pointer;
     overflow: hidden;
     outline:none;
+    margin: -7px -14px;
 }
-.navbar li a:hover{
+.navbar li#active a:hover{
 	background-repeat:no-repeat;
 	padding: 7px 14px;
 	border-radius: 2px;
@@ -173,6 +174,7 @@ h2{
     cursor: pointer;
     overflow: hidden;
     outline:none;
+    margin: -7px -14px;
 }
 .navbar li a{
 	color: 	#fff;
@@ -225,11 +227,11 @@ h2{
 }
 
 #gradient:hover{
-	width: 370px;
-	height: 121px;
+	width: 375px;
+	height: 126px;
 	transform: uppercase;
     cursor: pointer;
-    margin-top: -2.5px;
+    margin-top: -5px;
     overflow: hidden;
     outline:none;
 }

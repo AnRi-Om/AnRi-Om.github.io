@@ -98,6 +98,7 @@ h2{
 	opacity: 0.65;
 }
 .firstbtn{
+	font-family: 'Exo 2', sans-serif;
     background-color: Transparent;
     background-repeat:no-repeat;
     border: solid 2px #fcd644;
@@ -106,24 +107,24 @@ h2{
     color: #fff;
     font-weight: 700;
     font-size: 15px;
+    line-height: 22px;
     cursor: pointer;
     overflow: hidden;
     outline:none;
     transition: all 0.5s ease;
     }
 .firstbtn:hover{
+	font-family: 'Exo 2', sans-serif;
     background-color: Transparent;
     background-repeat:no-repeat;
-    border: solid 2px #fcd644;
-    border-radius: 2px;
-    padding: 7px 17px;
+    border: solid 2px #ec5793;
     color: #fff;
     font-weight: 700;
     font-size: 15px;
+    line-height: 22px;
     cursor: pointer;
     overflow: hidden;
     outline:none;
-    margin: 2px 2.65px;
     }
 .line{
     border-bottom: 1px solid;
@@ -149,8 +150,7 @@ h2{
 	line-height: 1.47;
  	font-size: 	15px;
 }
-.navbar li.active a,
-.navbar li a:hover{
+.navbar li.active a {
 	background-repeat:no-repeat;
 	padding: 7px 14px;
 	border-radius: 2px;
@@ -162,9 +162,24 @@ h2{
     overflow: hidden;
     outline:none;
 }
+.navbar li a:hover{
+	background-repeat:no-repeat;
+	padding: 7px 14px;
+	border-radius: 2px;
+    background: rgba(255,255,255,0.2);
+    font-weight: 700;
+    line-height: 1.47;
+    font-size: 15px;
+    cursor: pointer;
+    overflow: hidden;
+    outline:none;
+}
 .navbar li a{
 	color: 	#fff;
 	transition: all 0.5s ease;
+}
+.topnav{
+	display: none;
 }
 .offer {
 	display: flex;
@@ -208,13 +223,14 @@ h2{
     overflow: hidden;
     outline:none;
 }
+
 #gradient:hover{
-	width: 360px;
-	height: 111px;
+	width: 370px;
+	height: 121px;
+	transform: uppercase;
     cursor: pointer;
     overflow: hidden;
     outline:none;
-    
 }
 .markets{
    width: 71px;
@@ -225,7 +241,6 @@ h2{
 }
 
 @media screen and (min-width: 560px) and (max-width: 901px){
-
 .header{
 	background: #0a0224 url("../img/typeawaynumerodos-3@3x.png") no-repeat center top / cover;
 	height: 100%;
@@ -264,7 +279,65 @@ h2{
 	width: 95%;
 }
 .navbar{
-	width: 85%;
+	display: none;
+}
+.topnav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+    margin-top: 17px;
+    max-width: 926px;
+    width: 85%;
+}
+.topnav li{
+	font-weight: 700;
+	line-height: 1.47;
+ 	font-size: 	15px;
+}
+.topnav li.active a,
+.topnav li a:hover{
+	background-repeat:no-repeat;
+	padding: 7px 14px;
+	border-radius: 2px;
+    background-color: #ec5793;
+    font-weight: 700;
+    line-height: 1.47;
+    font-size: 15px;
+    cursor: pointer;
+    overflow: hidden;
+    outline:none;
+    margin-right: -7px;
+}
+.topnav li a{
+	margin-right: 7px;
+	color: 	#fff;
+	transition: all 0.5s ease;
+}
+.topbtn{
+	display: flex;
+	justify-content: space-between;
+	align-items: right;
+	width: 90%;
+	max-width: 190px;
+}
+.topnav li img{
+	width: 20px;
+	height: 20px;
+	margin: 7px;
+	transition: all 0.5s ease;
+}
+.topnav li img:hover{
+	background-repeat:no-repeat;
+	padding: 8px;
+	border-radius: 2px;
+    background-color: #ec5793;
+    cursor: pointer;
+    overflow: hidden;
+    outline:none;
+    margin: -1px;
 }
 .of_us{
 	margin-top: 95px;

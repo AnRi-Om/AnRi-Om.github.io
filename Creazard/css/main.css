@@ -295,6 +295,43 @@ h2{
 }
 }
 @media screen and (min-width: 324px) and (max-width: 805px){
+.header{
+	background: #0a0224 url("../img/typeawaynumerodos-3@3x.png") no-repeat center top / cover;
+	height: 100%;
+	min-height: 1280px;
+}
+.rectangle{
+	height: 100%;
+  	min-height: 1280px;
+ }
+ .conteiner{
+	width: 96%;
+	max-width: 980px;
+	margin: 0 auto;
+}
+.logo{
+	flex-direction: column;
+}
+.logocreazard{
+	margin-left: -162px;
+	width: 90px;
+	margin-bottom: 10px;
+}
+.logo span{
+	margin-left: 25px;
+}
+.contacts{
+	flex-direction: column;
+}
+.firstbtn{
+	margin-top: 13px;
+	margin-left: 36px;
+	padding: 7px 14px;
+}
+.firstbtn:hover{
+    margin-top: 13px;
+	margin-left: 36px;
+    }
 .navbar{
 	display: none;
 }
@@ -350,7 +387,8 @@ h2{
 	justify-content: space-between;
 	align-items: right;
 	width: 90%;
-	max-width: 190px;
+	max-width: 170px;
+	margin-right: 14px;
 }
 .menu-btn span,
 .menu-btn span::before,
@@ -433,4 +471,8 @@ ul.topnav li ul li a:hover{
     overflow: hidden;
     outline:none;
 }
+.of_us{
+		flex-direction: column;
+}
+
 }

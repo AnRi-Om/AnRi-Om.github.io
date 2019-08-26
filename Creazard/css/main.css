@@ -249,7 +249,7 @@ h2{
    margin-top: -8px;
 }
 
-@media screen and (min-width: 804px) and (max-width: 1001px){
+@media screen and (min-width: 805px) and (max-width: 1001px){
 .header{
 	background: #0a0224 url("../img/typeawaynumerodos-3@3x.png") no-repeat center top / cover;
 	height: 100%;
@@ -350,6 +350,7 @@ h2{
 	font-weight: 700;
 	line-height: 1.47;
  	font-size: 	15px;
+ 	margin-top: 15px;	
 }
 .topnav li.active a {
 	background-repeat:no-repeat;
@@ -427,23 +428,22 @@ h2{
     margin: -9px -29px -15px -9px;
 }
 ul.topnav li ul{
-	list-style-type: none;
-	visibility: hidden;
+    list-style-type: none;
+    width: 85%;
+    visibility: hidden;
     opacity: 0;
-    min-width: 5rem;
+    border: 1px solid rgba(255, 255, 255, 0.2);
     position: absolute;
     transition: all 0.5s ease;
-    margin-top: 0;
-    margin-left: 3rem;
-    left: 0;
-    background: rgba(0,0,0,0.2);
-    display: none;
+    margin-top: 1.5rem;
+    background: rgba(0,0,0,0.8);
 }
 ul.topnav li ul li a{
 	color: #fff;
 	font-weight: 700;
     line-height: 1.47;
     font-size: 15px;
+    padding: 15px;
     background-repeat:no-repeat;
 	margin: 7px 14px;
 	transition: all 0.5s ease;
@@ -456,20 +456,26 @@ ul.topnav li ul:hover {
   display: block;
 }
 ul.topnav li ul li {
-   clear: both;
-  width: 100%;
+    clear: both;
+    padding: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    width: 90%;
+    margin-top: 0px;	
+    transition: all 0.5s ease;
+
 }
 ul.topnav li ul li a:hover{
-	background-repeat:no-repeat;
-	padding: 7px 14px;
-	border-radius: 2px;
+    background-repeat: no-repeat;
+    padding: 14px 14px 14px 14px;
+    border-radius: 2px;
     background: rgba(255,255,255,0.2);
     font-weight: 700;
     line-height: 1.47;
     font-size: 15px;
     cursor: pointer;
     overflow: hidden;
-    outline:none;
+    outline: none;
+    margin-top: 0px;	
 }
 .of_us{
 		flex-direction: column;

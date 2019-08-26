@@ -249,7 +249,7 @@ h2{
    margin-top: -8px;
 }
 
-@media screen and (min-width: 599px) and (max-width: 1001px){
+@media screen and (min-width: 804px) and (max-width: 1001px){
 .header{
 	background: #0a0224 url("../img/typeawaynumerodos-3@3x.png") no-repeat center top / cover;
 	height: 100%;

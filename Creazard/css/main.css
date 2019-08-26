@@ -25,7 +25,7 @@ h2{
   letter-spacing: normal;
 }
 .header{
-	background: #0a0224 url("../img/typeawaynumerodos-3@3x.png" ) no-repeat center top / cover;
+	background: #0a0224 url("../img/typeawaynumerodos-3@3x.jpg" ) no-repeat center top / cover;
 	color: #fff;
 	height: 100%;	
 	-webkit-background-size: cover;
@@ -480,5 +480,31 @@ ul.topnav li ul li a:hover{
 .of_us{
 		flex-direction: column;
 }
-
+}
+@media screen and (min-width: 324px) and (max-width: 805px){
+	.contacts{
+	flex-direction: column;
+    align-items: flex-end;
+	}
+	.firstbtn{
+	margin-top: 13px;
+    margin-right: 24px;
+    padding: 7px 14px;
+	}
+	.manual a {
+    text-decoration: none;
+    text-align: right;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700
+}
+	.logo{
+	flex-direction: column;
+    align-items: end;
+	}
+	.logocreazard{
+	margin-left: 26px;
+    width: 90px;
+    margin-bottom: 10px;
+	}
 }

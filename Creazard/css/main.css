@@ -217,6 +217,7 @@ h2{
 	background: none;
 	border: none;
 	margin-top: 105px;
+	outline:none;
 }
 #gradient{
     object-fit: contain;

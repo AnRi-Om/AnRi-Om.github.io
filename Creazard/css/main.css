@@ -4,6 +4,9 @@ body {
 	margin: 0;
 	font-size: 15px;
 	color: #000;
+	height: 100vh;
+    min-height: 820px;
+    transform: scale(1);
 }
 div, p, a, form, button{
 	box-sizing: border-box;
@@ -24,11 +27,12 @@ h2{
 .header{
 	background: #0a0224 url("../img/typeawaynumerodos-3@3x.png" ) no-repeat center top / cover;
 	color: #fff;
-	height: 99%;
-	min-height: 870px;	
+	height: 100%;	
+	-webkit-background-size: cover;
+	background-size: cover;
 }
 .gradient{
-	width: 100%
+	width: 100%;
 	max-width:5000px;
     height: 160px;
     background-image: linear-gradient(to bottom, #000000, rgba(0, 0, 0, 0.6) 35%, rgba(0, 0, 0, 0.19) 69%, rgba(0, 0, 0, 0.06) 84%, rgba(0, 0, 0, 0));
@@ -37,7 +41,6 @@ h2{
 	width: 100%;
 	max-width: 5000px;
 	height: 100%;
-  	min-height: 870px;
  	background-color: rgba(0, 0, 0, 0.65);
 }
 .conteiner{
@@ -48,6 +51,7 @@ h2{
 .space{
 	height: 22.5px;
 	width: 100%;
+	margin-top: -160px;	
 }
 .info{
 	display: flex;
@@ -217,7 +221,7 @@ h2{
 	background: none;
 	border: none;
 	margin-top: 105px;
-	outline:none;
+	outline:none; 
 }
 #gradient{
     object-fit: contain;
@@ -225,26 +229,27 @@ h2{
     cursor: pointer;
     overflow: hidden;
     outline:none;
+    float: left;
+    margin-left: 7px;	
 }
-
 #gradient:hover{
 	width: 375px;
 	height: 126px;
 	transform: uppercase;
     cursor: pointer;
-    margin: -10px;
+    margin: -5px;
     overflow: hidden;
     outline:none;
+    margin-left: 3.5px;	
 }
 .markets{
    width: 71px;
    height: 25px;
    object-fit: contain;
-   margin-top: 655px;
-   position: absolute;
+   margin-top: -8px;
 }
 
-@media screen and (min-width: 560px) and (max-width: 901px){
+@media screen and (min-width: 599px) and (max-width: 1001px){
 .header{
 	background: #0a0224 url("../img/typeawaynumerodos-3@3x.png") no-repeat center top / cover;
 	height: 100%;
@@ -274,14 +279,22 @@ h2{
 	padding: 10px 20px;
 }
 .firstbtn:hover{
-    padding: 8px 18px;
-    margin: 2px;
-    margin-top: 15px;
-	margin-left: 24px;
+    margin-top: 13px;
+	margin-left: 22px;
     }
 .conteiner{
 	width: 95%;
 }
+.of_us{
+	margin-top: 95px;
+	width: 90%;
+	max-width: 800px;
+}
+#offer{
+	margin: auto;
+}
+}
+@media screen and (min-width: 324px) and (max-width: 805px){
 .navbar{
 	display: none;
 }
@@ -339,12 +352,6 @@ h2{
 	width: 90%;
 	max-width: 190px;
 }
-.topnav li img{
-	width: 20px;
-	height: 20px;
-	margin: 7px;
-	transition: all 0.5s ease;
-}
 .menu-btn span,
 .menu-btn span::before,
 .menu-btn span::after {
@@ -366,52 +373,64 @@ h2{
 .menu-btn span::after {
   transform: translateY(5px);
 }
-
-.menu-btn_active span:before {
-  transform: rotate(-35deg);
-  width: 10px;
-  transform-origin: left bottom;
+.menu-btn{
+	float: left;
+	transition: all 0.3s ease;
+	margin-top: 6px;
 }
-.menu-btn_active span:after {
-  transform: rotate(35deg);
-  width: 10px;
-  transform-origin: left top;
+.menu-btn:hover{
+	background-repeat:no-repeat;
+	padding: 15px 29px 15px 9px;
+	border-radius: 2px;
+    background: rgba(255,255,255,0.2);
+    cursor: pointer;
+    overflow: hidden;
+    outline:none;
+    margin: -9px -29px -15px -9px;
 }
-
-.menu-block {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+ul.topnav li ul{
+	list-style-type: none;
+	visibility: hidden;
+    opacity: 0;
+    min-width: 5rem;
+    position: absolute;
+    transition: all 0.5s ease;
+    margin-top: 0;
+    margin-left: 3rem;
+    left: 0;
+    background: rgba(0,0,0,0.2);
+    display: none;
 }
-.menu-nav {
-  background-color: #fff;
-  height: 50px;
-  
+ul.topnav li ul li a{
+	color: #fff;
+	font-weight: 700;
+    line-height: 1.47;
+    font-size: 15px;
+    background-repeat:no-repeat;
+	margin: 7px 14px;
+	transition: all 0.5s ease;
+    
 }
-.menu-nav__link {
-  display: inline-block;
-  text-decoration: none;
-  color: #fff;
-  margin-right: 20px;
-}
-.menu-nav__link {
-  transition: 0.5s;
-  transform-origin: right center;
-  transform: translateX(50%);
-  opacity: 0;
-}
-.menu-nav__link_active {
-  transform: translateX(0%);
+ul.topnav li:hover > ul,
+ul.topnav li ul:hover {
+  visibility: visible;
   opacity: 1;
+  display: block;
 }
-
-.of_us{
-	margin-top: 95px;
-	width: 90%;
-	max-width: 800px;
+ul.topnav li ul li {
+   clear: both;
+  width: 100%;
 }
-#offer{
-	margin: auto;
+ul.topnav li ul li a:hover{
+	background-repeat:no-repeat;
+	padding: 7px 14px;
+	border-radius: 2px;
+    background: rgba(255,255,255,0.2);
+    font-weight: 700;
+    line-height: 1.47;
+    font-size: 15px;
+    cursor: pointer;
+    overflow: hidden;
+    outline:none;
 }
-
 }

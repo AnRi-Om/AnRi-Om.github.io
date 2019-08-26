@@ -27,9 +27,14 @@ h2{
 .header{
 	background: #0a0224 url("../img/typeawaynumerodos-3@3x.jpg" ) no-repeat center top / cover;
 	color: #fff;
-	height: 100%;	
+	height: 130%;	
 	-webkit-background-size: cover;
 	background-size: cover;
+	transition: all 2s ease;
+}
+.header:hover{
+	background: #0a0224 url("../img/typeawaynumerodos-3@3x.jpg" ) no-repeat center top / cover;
+	height: 100%;
 }
 .gradient{
 	width: 100%;
@@ -481,7 +486,10 @@ ul.topnav li ul li a:hover{
 		flex-direction: column;
 }
 }
-@media screen and (min-width: 324px) and (max-width: 805px){
+@media screen and (min-width: 374px) and (max-width: 805px){
+	.rectangle{
+	min-height: 1250px;
+	}
 	.contacts{
 	flex-direction: column;
     align-items: flex-end;
@@ -490,6 +498,12 @@ ul.topnav li ul li a:hover{
 	margin-top: 13px;
     margin-right: 24px;
     padding: 7px 14px;
+	}
+	.button{
+		margin-top: 95px;
+	}
+	.stars{
+		margin-top: 95px;
 	}
 	.manual a {
     text-decoration: none;
@@ -506,5 +520,8 @@ ul.topnav li ul li a:hover{
 	margin-left: 26px;
     width: 90px;
     margin-bottom: 10px;
+	}
+	#offer{
+		margin:53px 25px 0px 25px;
 	}
 }

@@ -325,7 +325,7 @@ h2{
     transition: all 0s ease;
 }
 .info{
-	width: 95%;
+	width: 100%;
 }
 .header:hover{
 	background: #0a0224 url("../img/typeawaynumerodos-3.png") no-repeat center top / cover;
@@ -553,7 +553,7 @@ ul.topnav li ul li#active:hover{
     align-items: end;
 	}
 	.logocreazard{
-	margin-left: 26px;
+	
     width: 90px;
     margin-bottom: 10px;
 	}

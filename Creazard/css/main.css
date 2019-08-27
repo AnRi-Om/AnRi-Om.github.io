@@ -520,6 +520,7 @@ ul.topnav li ul li#active:hover{
 }
 .button{
 		margin-top: 95px;
+		padding: 0;
 	}
 .of_us{
 		flex-direction: column;

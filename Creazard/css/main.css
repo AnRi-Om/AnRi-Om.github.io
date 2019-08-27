@@ -321,7 +321,7 @@ h2{
 	background: #0a0224 url("../img/typeawaynumerodos-3.png") no-repeat center top / cover;
 	height: auto;	
 	transform: scale(1);
-	min-height: 100%;
+	max-width: 100%;
         background-attachment: fixed;
         transition: all 0s ease;
 }

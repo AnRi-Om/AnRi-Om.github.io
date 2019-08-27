@@ -80,7 +80,6 @@ h2{
 	max-width: 280px;
 	line-height: 1.47;
 	font-weight:500;
-	margin-left: 39px;
 }
 .creazard{
    width: 126px;
@@ -325,6 +324,9 @@ h2{
     background-attachment: fixed, scroll;
     transition: all 0s ease;
 }
+.info{
+	width: 95%;
+}
 .header:hover{
 	background: #0a0224 url("../img/typeawaynumerodos-3.png") no-repeat center top / cover;
 	height: auto;	
@@ -538,6 +540,9 @@ ul.topnav li ul li#active:hover{
 	}
 	.manual{
 		display: none;
+	}
+	.offer span{
+		font-size: 24px;
 	}
 	.stars{
 		margin-top: 95px;

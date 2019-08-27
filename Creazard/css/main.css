@@ -27,14 +27,21 @@ h2{
 .header{
 	background: #0a0224 url("../img/typeawaynumerodos-3@3x.jpg" ) no-repeat center top / cover;
 	color: #fff;
-	height: 130%;	
+	height: 100%;
+	transform: scale(1.1);	
 	-webkit-background-size: cover;
 	background-size: cover;
-	transition: all 2s ease;
+	transition: all 2s;
 }
 .header:hover{
-	background: #0a0224 url("../img/typeawaynumerodos-3@3x.jpg" ) no-repeat center top / cover;
+    background: #0a0224 url("../img/typeawaynumerodos-3@3x.jpg" ) no-repeat center top / cover;
+	color: #fff;
 	height: 100%;
+	transform: scale(1);
+	margin:0;
+	padding: 0;	
+	-webkit-background-size: cover;
+	background-size: cover;
 }
 .gradient{
 	width: 100%;
@@ -256,12 +263,21 @@ h2{
 
 @media screen and (min-width: 805px) and (max-width: 1001px){
 .header{
-	background: #0a0224 url("../img/typeawaynumerodos-3@3x.png") no-repeat center top / cover;
-	height: 100%;
-	min-height: 950px;
+	background: #0a0224 url("../img/typeawaynumerodos-3.png") no-repeat center top / cover;
+	height: auto;	
+	transform: scale(1);
+    background-attachment: fixed, scroll;
+    transition: all 0s ease;
+}
+.header:hover{
+	background: #0a0224 url("../img/typeawaynumerodos-3.png") no-repeat center top / cover;
+	height: auto;	
+	transform: scale(1);
+    background-attachment: fixed, scroll;
+    transition: all 0s ease;
 }
 .rectangle{
-	height: 100%;
+	height: 100vh;
   	min-height: 950px;
  }
 .logo{
@@ -274,6 +290,10 @@ h2{
 }
 .logo span{
 	margin-left: 25px;
+}
+.manual{
+	text-align: right;
+    margin-right: 25px;
 }
 .contacts{
 	flex-direction: column;
@@ -303,7 +323,16 @@ h2{
 .header{
 	background: #0a0224 url("../img/typeawaynumerodos-3.png") no-repeat center top / cover;
 	height: auto;	
+	transform: scale(1);
     background-attachment: fixed, scroll;
+    transition: all 0s ease;
+}
+.header:hover{
+	background: #0a0224 url("../img/typeawaynumerodos-3.png") no-repeat center top / cover;
+	height: auto;	
+	transform: scale(1);
+    background-attachment: fixed, scroll;
+    transition: all 0s ease;
 }
 .rectangle{
 	height: 100vh;
@@ -314,19 +343,32 @@ h2{
 	max-width: 980px;
 	margin: 0 auto;
 }
-.logo{
-	flex-direction: column;
+.manual{
+	text-align: right;
+    margin-right: 25px;
 }
+.contacts{
+	display: none
+}
+.firstbtn{
+	margin-top: 13px;
+	margin-left: 22px;
+	padding: 10px 20px;
+}
+.firstbtn:hover{
+    margin-top: 13px;
+	margin-left: 22px;
+    }
+.logo{
+	display: contents;
+    text-align: right;
+    justify-content: space-between;
+}
+
 .logocreazard{
 	margin-left: -162px;
 	width: 90px;
 	margin-bottom: 10px;
-}
-.logo span{
-	margin-left: 25px;
-}
-.contacts{
-	flex-direction: column;
 }
 .firstbtn{
 	margin-top: 13px;
@@ -347,9 +389,10 @@ h2{
     margin: 0 auto;
     padding: 0;
     list-style-type: none;
-    margin-top: 17px;
+    margin-top: 10px;
     max-width: 926px;
-    width: 85%;
+    width: 98%;
+    float:left;
 }
 .topnav li{
 	font-weight: 700;
@@ -357,44 +400,18 @@ h2{
  	font-size: 	15px;
  	margin-top: 15px;	
 }
-.topnav li.active a {
-	background-repeat:no-repeat;
-	padding: 7px 14px;
-	border-radius: 2px;
+.topnav li.active {
+	background-repeat: no-repeat;
+    padding: 14px 14px 14px 14px;
+    border-radius: 2px;
+    font-weight: 700;
+    line-height: 1.47;
+    font-size: 15px;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;	
     background-color: #ec5793;
-    font-weight: 700;
-    line-height: 1.47;
-    font-size: 15px;
-    cursor: pointer;
-    overflow: hidden;
-    outline:none;
     color: #fff;
-}
-.topnav li#active a:hover{
-	background-repeat:no-repeat;
-	padding: 7px 14px;
-	border-radius: 2px;
-    background: rgba(255,255,255,0.2);
-    font-weight: 700;
-    line-height: 1.47;
-    font-size: 15px;
-    cursor: pointer;
-    overflow: hidden;
-    outline:none;
-    margin: -7px -14px;
-}
-.topnav li#active a{
-	color: 	#fff;
-	transition: all 0.3s ease;
-	float: left;
-}
-.topbtn{
-	display: flex;
-	justify-content: space-between;
-	align-items: right;
-	width: 90%;
-	max-width: 170px;
-	margin-right: 14px;
 }
 .menu-btn span,
 .menu-btn span::before,
@@ -420,7 +437,8 @@ h2{
 .menu-btn{
 	float: left;
 	transition: all 0.3s ease;
-	margin-top: 6px;
+	margin-top: -4px;
+	margin-left: 35px;
 }
 .menu-btn:hover{
 	background-repeat:no-repeat;
@@ -433,15 +451,17 @@ h2{
     margin: -9px -29px -15px -9px;
 }
 ul.topnav li ul{
-    list-style-type: none;
-    width: 85%;
+	list-style-type: none;
+    width: 100%;
     visibility: hidden;
     opacity: 0;
+    height: 421.8px;
     border: 1px solid rgba(255, 255, 255, 0.2);
     position: absolute;
     transition: all 0.5s ease;
-    margin-top: 1.5rem;
-    background: rgba(0,0,0,0.8);
+    margin-top: -3.5rem;
+    background: rgba(0,0,0,1);
+
 }
 ul.topnav li ul li a{
 	color: #fff;
@@ -459,19 +479,20 @@ ul.topnav li ul:hover {
   visibility: visible;
   opacity: 1;
   display: block;
+  padding: 0;
 }
 ul.topnav li ul li {
     clear: both;
     padding: 15px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-    width: 90%;
+    width: 100%;
     margin-top: 0px;	
     transition: all 0.5s ease;
 
 }
-ul.topnav li ul li a:hover{
+ul.topnav li ul li#active:hover{
     background-repeat: no-repeat;
-    padding: 14px 14px 14px 14px;
+    padding: 15px;
     border-radius: 2px;
     background: rgba(255,255,255,0.2);
     font-weight: 700;
@@ -479,8 +500,7 @@ ul.topnav li ul li a:hover{
     font-size: 15px;
     cursor: pointer;
     overflow: hidden;
-    outline: none;
-    margin-top: 0px;	
+    outline: none;	
 }
 .of_us{
 		flex-direction: column;
@@ -499,19 +519,15 @@ ul.topnav li ul li a:hover{
     margin-right: 24px;
     padding: 7px 14px;
 	}
+	.manual{
+		display: none;
+	}
 	.button{
 		margin-top: 95px;
 	}
 	.stars{
 		margin-top: 95px;
 	}
-	.manual a {
-    text-decoration: none;
-    text-align: right;
-    color: #fff;
-    font-size: 18px;
-    font-weight: 700
-}
 	.logo{
 	flex-direction: column;
     align-items: end;

@@ -321,7 +321,7 @@ h2{
 	background: #0a0224 url("../img/typeawaynumerodos-3.png") no-repeat center top / cover;
 	height: auto;	
 	transform: scale(1);
-    background-attachment: fixed, scroll;
+    background-attachment: fixed;
     transition: all 0s ease;
 }
 .info{
@@ -331,7 +331,7 @@ h2{
 	background: #0a0224 url("../img/typeawaynumerodos-3.png") no-repeat center top / cover;
 	height: auto;	
 	transform: scale(1);
-    background-attachment: fixed, scroll;
+    background-attachment: fixed;
     transition: all 0s ease;
 }
 .rectangle{

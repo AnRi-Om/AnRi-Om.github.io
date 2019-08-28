@@ -321,9 +321,8 @@ h2{
 	background: #0a0224 url("../img/typeawaynumerodos-3.png") no-repeat center top / cover;
 	height: auto;	
 	transform: scale(1);
-	max-width: 100%;
-        background-attachment: fixed;
-        transition: all 0s ease;
+    background-attachment: fixed;
+    transition: all 0s ease;
 }
 .info{
 	width: 100%;
@@ -337,7 +336,7 @@ h2{
 }
 .rectangle{
 	height: 100vh;
-  	min-height: 1280px;
+  	min-height: 900px;
  }
  .conteiner{
 	width: 96%;
@@ -459,7 +458,7 @@ ul.topnav li ul{
     border: 1px solid rgba(255, 255, 255, 0.2);
     position: absolute;
     transition: all 0.5s ease;
-    margin-top: -3.5rem;
+    margin-top: -2.8rem;
     background: rgba(0,0,0,1);
 
 }
@@ -529,7 +528,7 @@ ul.topnav li ul li#active:hover{
 }
 @media screen and (min-width: 345px) and (max-width: 600px){
 	.rectangle{
-	min-height: 1250px;
+	min-height: 1050px;
 	}
 	.contacts{
 	flex-direction: column;
@@ -559,9 +558,11 @@ ul.topnav li ul li#active:hover{
     margin-bottom: 10px;
 	}
 	#offer{
-		margin:53px 25px 0px 25px;
+		margin:25px 25px 0px 25px;
 	}
 	.topnav{
 		width: 97%;
 	}
-}
+        .buttom{
+                margin-top: 40px;}
+        } 

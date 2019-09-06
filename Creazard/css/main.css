@@ -17,7 +17,7 @@ a{
 ul, li{
 	box-sizing: border-box;
 }
-h2{
+.header h2{
   font-size: 32px;
   font-weight: 800;
   color: #ffe922;
@@ -25,95 +25,86 @@ h2{
   letter-spacing: normal;
 }
 .header{
-	background: #0a0224 url("../img/typeawaynumerodos-3@3x.jpg" ) no-repeat center top / cover;
+    background: #0a0224 url("../img/block_1/typeawaynumerodos-3@3x.jpg" ) no-repeat center top / cover;
 	color: #fff;
-	height: 100%;
-	transform: scale(1.1);	
-	-webkit-background-size: cover;
-	background-size: cover;
-	transition: all 2s;
-}
-.header:hover{
-    background: #0a0224 url("../img/typeawaynumerodos-3@3x.jpg" ) no-repeat center top / cover;
-	color: #fff;
-	height: 100%;
-	transform: scale(1);
+	height: auto;
 	margin:0;
 	padding: 0;	
 	-webkit-background-size: cover;
 	background-size: cover;
 }
-.gradient{
+.header .gradient{
 	width: 100%;
 	max-width:5000px;
     height: 160px;
     background-image: linear-gradient(to bottom, #000000, rgba(0, 0, 0, 0.6) 35%, rgba(0, 0, 0, 0.19) 69%, rgba(0, 0, 0, 0.06) 84%, rgba(0, 0, 0, 0));
 }
-.rectangle{
+.header .rectangle{
 	width: 100%;
 	max-width: 5000px;
 	height: 100%;
  	background-color: rgba(0, 0, 0, 0.65);
 }
-.conteiner{
+.header .conteiner{
 	width: 90%;
 	max-width: 980px;
 	margin: 0 auto;
 }
-.space{
+.header .space{
 	height: 22.5px;
 	width: 100%;
 	margin-top: -160px;	
 }
-.info{
+.header .info{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 }
-.logo{
+.header .logo{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 }
-.logo span{
+.header .logo span{
 	width: 100%;
 	max-width: 280px;
-	line-height: 1.47;
+	line-height: 22px;
 	font-weight:500;
 	margin-left: 39px;
 }
-.creazard{
+.header .creazard{
    width: 126px;
    height: 55px;
    object-fit: contain;
    padding-left: 0;
 }
-.key{
+.header .key{
    width: 19px;
    height: 8px;
    object-fit: contain;
 }
-.manual{
+.header .manual{
 	text-align: right;
 	margin-right: 25px;
 }
-.manual a{
+.header .manual a{
 	text-decoration: none;
 	text-align: right;
 	color: #fff;
 	font-size: 20px;
+	line-height: 22px;
 	font-weight: 700;
 }
-.contacts{
+.header .contacts{
 	display: flex;
 	-ms-align-items: center;
 	align-items: center;
 }
-.manual article{
+.header .manual article{
 	margin-top: 5px;	
 	opacity: 0.65;
 }
-.firstbtn{
+.header .firstbtn{
 	font-family: 'Exo 2', sans-serif;
     background-color: Transparent;
     background-repeat:no-repeat;
@@ -129,7 +120,7 @@ h2{
     outline:none;
     transition: all 0.5s ease;
     }
-.firstbtn:hover{
+.header .firstbtn:hover{
 	font-family: 'Exo 2', sans-serif;
     background-color: Transparent;
     background-repeat:no-repeat;
@@ -142,7 +133,7 @@ h2{
     overflow: hidden;
     outline:none;
     }
-.line{
+.header .line{
     border-bottom: 1px solid;
 	color: #fff;
 	opacity: 0.3;
@@ -150,7 +141,7 @@ h2{
 	max-width: 5000px;
 	margin-top: 22.5px;
     }
-.navbar{
+.header .navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -161,25 +152,25 @@ h2{
     max-width: 926px;
     width: 90%;
 }
-.navbar li{
+.header .navbar li{
 	font-weight: 700;
-	line-height: 1.47;
+	line-height: 22px;
  	font-size: 	15px;
 }
-.navbar li.active a {
+.header .navbar li.active a {
 	background-repeat:no-repeat;
 	padding: 7px 14px;
 	border-radius: 2px;
     background-color: #ec5793;
     font-weight: 700;
-    line-height: 1.47;
+    line-height: 22px;
     font-size: 15px;
     cursor: pointer;
     overflow: hidden;
     outline:none;
     color: #fff;
 }
-.navbar li#active a:hover{
+.header .navbar li#active a:hover{
 	background-repeat:no-repeat;
 	padding: 7px 14px;
 	border-radius: 2px;
@@ -192,50 +183,55 @@ h2{
     outline:none;
     margin: -7px -14px;
 }
-.navbar li#active a{
+.header .navbar li#active a{
 	color: 	#fff;
 	transition: all 0.3s ease;
 	float: left;
 }
-.topnav{
+.header .topnav{
 	display: none;
 }
-.offer {
+.header .offer {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
 	width: 100%;
 }
-.stars{
+.header .stars{
 	margin-top: 109px;
 	width: 150px;
 	height: 27px;	
 }
-.offer span{
+.header .offer span{
   font-size: 32px;
+  line-height: 42px;
   font-weight: 800;
   margin-top: 17px;
 }
-#offer{
+.header #offer{
 	display: flex;
 	flex-direction: column;
 	text-align: center;
 	width: 180px;
 	margin:93px 25px 0px 25px;
 }
-.of_us{
+.header #offer article{
+	font-size: 17px;
+	line-height: 25px;
+}
+.header .of_us{
 	display: flex;
     justify-content: space-between;
     align-items: center;	
 }
-.button{
+.header .button{
 	background: none;
 	border: none;
 	margin-top: 105px;
 	outline:none; 
 }
-#gradient{
+.header #gradient{
     object-fit: contain;
     font-weight: 700;
     cursor: pointer;
@@ -243,7 +239,7 @@ h2{
     outline:none;
     float: left;	
 }
-#gradient:hover{
+.header #gradient:hover{
 	width: 375px;
 	height: 126px;
 	transform: uppercase;
@@ -252,27 +248,139 @@ h2{
     overflow: hidden;
     outline:none;
 }
-.markets{
+.header .markets{
    width: 71px;
    height: 25px;
    object-fit: contain;
    margin-top: -8px;
+   margin-bottom: 67px;
 }
+
+.ouroffices{
+	background: #f6f6f6;
+}
+.offices{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+	background: #f6f6f6;
+}
+.offices .head{
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	margin-top: 210px;
+	  margin-bottom: 20px;
+}
+.offices .head h2{
+  font-size: 32px;
+  line-height: 42px;
+  font-weight: 800;
+  color: #444;
+  line-height: 2px;
+  letter-spacing: normal;
+}
+.offices .head img{
+	width: 29px;
+	height: 12px;
+	object-fit: contain;
+	margin-right: 21px;
+	margin-top: 5px;
+}
+.offices .head h2 a{
+	text-decoration: none;
+    background-image: linear-gradient(to right, #d957ab, #ef578f 51%, #f3707f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #444;
+}
+.offices .subhead{
+	max-width: 600px;
+	color: #232323;
+	font-weight: 500;
+	font-size: 17px;
+	line-height: 25px;
+	margin-bottom: 80px;
+}
+
+.offices1{
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	max-width: 1389px;
+	margin:0 auto;
+	align-items: center;
+	background: #f6f6f6;
+}
+.offices1 .office{
+	height: 425px;
+
+}
+.offices1 .office img{
+	width: 100%;
+	object-fit: cover;
+	align-items:center top;
+	max-width: 682px;
+	max-height: 400px;
+}
+.offices1 .office span{
+	text-align: right;
+}
+.offices1 .office article{
+	margin-right: 40px;
+	line-height: 25px;
+	font-size: 17px;
+	font-weight: 500;
+	color: #232323;
+}
+.offices1 .office h3{
+	margin-top:-354px;
+	margin-right: 40px;
+	font-weight: 800;
+	line-height: 36px;
+	color: #444444;
+	font-size: 24px;
+	margin-bottom: -5px;
+}
+.offices1 .office1{
+	height: 425px;
+
+}
+.offices1 .office1 img{
+	width: 100%;
+	object-fit: cover;
+	align-items:center top;
+	max-width: 682px;
+	max-height: 400px;
+}
+.offices1 .office1 span{
+	text-align: left;
+}
+.offices1 .office1 article{
+	margin-left: 40px;
+	line-height: 25px;
+	font-size: 17px;
+	font-weight: 500;
+	color: #fff;
+}
+.offices1 .office1 h3{
+	margin-top:-362px;
+	margin-left: 40px;
+	font-weight: 800;
+	line-height: 32px;
+	color: #fff;
+	font-size: 24px;
+	margin-bottom: 8px;
+}
+
+
 
 @media screen and (min-width: 805px) and (max-width: 1001px){
 .header{
 	background: #0a0224 url("../img/typeawaynumerodos-3.png") no-repeat center top / cover;
 	height: auto;	
-	transform: scale(1);
     background-attachment: fixed, scroll;
-    transition: all 0s ease;
-}
-.header:hover{
-	background: #0a0224 url("../img/typeawaynumerodos-3.png") no-repeat center top / cover;
-	height: auto;	
-	transform: scale(1);
-    background-attachment: fixed, scroll;
-    transition: all 0s ease;
 }
 .rectangle{
 	height: 100vh;
@@ -321,19 +429,10 @@ h2{
 .header{
 	background: #0a0224 url("../img/typeawaynumerodos-3.png") no-repeat center top / cover;
 	height: auto;	
-	transform: scale(1);
     background-attachment: fixed;
-    transition: all 0s ease;
 }
 .info{
 	width: 100%;
-}
-.header:hover{
-	background: #0a0224 url("../img/typeawaynumerodos-3.png") no-repeat center top / cover;
-	height: auto;	
-	transform: scale(1);
-    background-attachment: fixed;
-    transition: all 0s ease;
 }
 .rectangle{
 	height: 100vh;

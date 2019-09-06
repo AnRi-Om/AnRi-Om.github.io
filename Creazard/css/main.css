@@ -4,9 +4,6 @@ body {
 	margin: 0;
 	font-size: 15px;
 	color: #000;
-	height: 100vh;
-    min-height: 820px;
-    transform: scale(1);
 }
 div, p, a, form, button{
 	box-sizing: border-box;

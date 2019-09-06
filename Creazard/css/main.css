@@ -312,14 +312,12 @@ ul, li{
 }
 .offices1 .office{
 	height: 425px;
-
 }
 .offices1 .office img{
-	width: 100%;
 	object-fit: cover;
 	align-items:center top;
-	max-width: 682px;
-	max-height: 400px;
+	width: 682px;
+	height: 400px;
 }
 .offices1 .office span{
 	text-align: right;
@@ -342,14 +340,12 @@ ul, li{
 }
 .offices1 .office1{
 	height: 425px;
-
 }
 .offices1 .office1 img{
-	width: 100%;
 	object-fit: cover;
 	align-items:center top;
-	max-width: 682px;
-	max-height: 400px;
+	width: 682px;
+	height: 400px;
 }
 .offices1 .office1 span{
 	text-align: left;
@@ -371,6 +367,99 @@ ul, li{
 	margin-bottom: 8px;
 }
 
+.offices2{
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	max-width: 1389px;
+	margin:0 auto;
+	align-items: center;
+	background: #f6f6f6;
+}
+
+.offices2 .office2{
+	height: 437px;
+}
+.offices2 .office2 img{
+	width: 100%;
+	object-fit: cover;
+	align-items:center top;
+	max-width: 446px;
+	max-height: 400px;
+}
+.offices2 .office2 span{
+	text-align: center;
+}
+.offices2 .office2 h3{
+	margin-top:-362px;
+	font-weight: 800;
+	line-height: 32px;
+	color: #fff;
+	font-size: 24px;
+	margin-bottom: 8px;
+}
+
+.offices2 .office3{
+	height: 437px;
+}
+.offices2 .office3 img{
+	object-fit: cover;
+	align-items:center top;
+	width: 446px;
+	height: 400px;
+}
+.offices2 .office3 span{
+	text-align: center;
+}
+.offices2 .office3 article{
+	line-height: 25px;
+	font-size: 17px;
+	font-weight: 500;
+	color: #fff;
+}
+.offices2 .office3 h3{
+	margin-top:-362px;
+	font-weight: 800;
+	line-height: 32px;
+	color: #fff;
+	font-size: 24px;
+	margin-bottom: 8px;
+}
+
+.offices2 .office4{
+	height: 437px;
+}
+.offices2 .rectangle{
+  width: 446px;
+  height: 400px;
+  background-color: #232323;
+}
+.offices2 .office4 img{
+	object-fit: cover;
+	align-items:center top;
+	opacity: 0.5;
+	width: 446px;
+	height: 400px;
+}
+.offices2 .office4 span{
+	text-align: center;
+}
+.offices2 .office4 article{
+	line-height: 25px;
+	font-size: 17px;
+	font-weight: 500;
+	color: #fff;
+	max-width: 365px;
+	margin: auto;
+}
+.offices2 .office4 h3{
+	margin-top:-362px;
+	font-weight: 800;
+	line-height: 32px;
+	color: #fff;
+	font-size: 24px;
+	margin-bottom: 8px;
+}
 
 
 @media screen and (min-width: 805px) and (max-width: 1001px){

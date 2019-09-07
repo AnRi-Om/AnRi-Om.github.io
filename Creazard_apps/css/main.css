@@ -18,7 +18,7 @@ ul, li{
 
 .header h2{
   font-size: 32px;
-  font-weight: 800;
+  font-weight: 700;
   color: #ffe922;
   line-height: 2px;
   letter-spacing: normal;
@@ -216,7 +216,7 @@ ul, li{
 	margin-top: 30px;
 	font-size: 32px;
 	line-height: 42px;
-	font-weight: 800;
+	font-weight: 700;
 }
 .header .offer img.button{
 	width: 320px;

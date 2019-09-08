@@ -17,7 +17,8 @@ ul, li{
 
 h2{
 	font-weight: 800;
-	margin: 0;	
+	margin: 0;
+	font-size: 32px;	
 }
 h3{
 	font-weight: 700;
@@ -216,9 +217,8 @@ h4 span{
  	margin-right: 15px;
 }
 .header .offer h3{
-	margin-top: 30px;
-	font-size: 32px;
-	line-height: 42px;
+	font-size: 18px;
+	margin-bottom: 30px;
 }
 .header .offer img.button{
 	width: 320px;
@@ -227,7 +227,11 @@ h4 span{
 	margin-bottom: 388px;
 	margin-left: -30px;
 }
-
+.header .offer h2{
+	max-width: 410px;
+	font-weight: 32px;
+	line-height: 42px;
+}
 .block_2{
 	display: flex;
 	max-width: 1008px;

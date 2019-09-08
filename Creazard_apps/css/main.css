@@ -15,18 +15,23 @@ ul, li{
 	box-sizing: border-box;
 }
 
-
-.header h2{
-  font-size: 32px;
-  font-weight: 700;
-  color: #ffe922;
-  line-height: 2px;
-  letter-spacing: normal;
+h2{
+	font-weight: 800;
+	margin: 0;	
 }
-.header .head h4{
+h3{
+	font-weight: 700;
+	margin: 0;
+}
+h4{
+	font-weight: 500;
+	margin: 0;
+}
+
+
+.header .head h3{
 	margin: 0px;
 	font-size: 18px;
-	font-weight: 700;
 	color: #fff;
 }
 .header{
@@ -92,7 +97,6 @@ ul, li{
 	color: #fff;
 	font-size: 20px;
 	line-height: 22px;
-	font-weight: 700;
 }
 .header .contacts{
 	display: flex;
@@ -224,6 +228,53 @@ ul, li{
 	margin-top: 80px;
 	margin-bottom: 388px;
 	margin-left: -30px;
+}
+
+.block_2{
+	display: flex;
+	max-width: 1008px;
+	margin: 0 auto;
+	align-items: center;
+	text-align: center;
+}
+.block_2 .basket{
+	width: 210px;
+	height: 209px;
+	margin-right: 189px;
+	margin-left: 100px;
+	margin-top: 66px;
+}
+.block_2 .content{
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	width: 100%;
+	max-width: 504px;
+	margin-top: 201.5px;
+}
+.block_2 .content h2{
+	font-size: 32px;
+	line-height: 42px;
+	color: #444;
+}
+.block_2 .content span{
+	font-size: 17px;
+	line-height: 25px;
+	color: #232323;
+	max-width: 410px;
+	margin-top: 30px;
+	font-weight: 500;
+}
+.block_2 .content span img{
+	width: 28px;
+	height: 28px;
+	padding-top: 14px;
+	margin-bottom: -8px;
+	margin-right: 5px;
+}
+.block_2 .content .shops{
+	margin-top: 53px;
+	margin-bottom: 200.5px;
 }
 
 

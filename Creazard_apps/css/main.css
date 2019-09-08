@@ -301,12 +301,12 @@ h4 span{
 	-ms-align-items: center;
 	align-items: center;
 	margin-top: 200px;
-	margin-bottom: 20px;
 }
 .block_3 .offices .head h2{
   font-size: 32px;
   line-height: 42px;
   color: #444;
+  margin-bottom: 30px;
 }
 .block_3 .offices .head h2 a{
 	text-decoration: none;

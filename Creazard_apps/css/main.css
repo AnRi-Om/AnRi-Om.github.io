@@ -24,8 +24,8 @@ h3{
 	margin: 0;
 	font-size: 20px;
 }
-h4 span{
-	font-weight: 500;
+h4{
+	font-weight: 400;
 	margin: 0;
 	font-size: 17px;
 }
@@ -324,7 +324,6 @@ h4 span{
 .block_3 .offices span.subhead{
 	max-width: 600px;
 	color: #232323;
-	font-size: 17px;
 	line-height: 25px;
 	margin-bottom: 80px;
 }
@@ -332,8 +331,6 @@ h4 span{
 	margin-bottom: 200px;
 }
 
-.block_4{
-}
 .group1{
  	text-align: center;
  	background: #fff url("../img/block_4/Group1/Group@2x.jpg" ) no-repeat center top / cover;
@@ -353,7 +350,6 @@ h4 span{
 }
 .group1 h2.head {
 	font-size: 32px;
-	font-weight: 800;
 	color: #444444;
 	line-height: 42px;
 }
@@ -372,7 +368,6 @@ h4 span{
 }
 .group1 main h2{
 	font-size: 32px;
-	font-weight: 800;
 	color: #444444;
 	margin-top: 32px;
 	margin-bottom: 30px;
@@ -407,7 +402,6 @@ h4 span{
 }
 .group2 h2.head {
 	font-size: 32px;
-	font-weight: 800;
 	color: #444444;
 	line-height: 42px;
 }
@@ -423,12 +417,13 @@ h4 span{
 .group2 main span{
 	color: #232323;
 	margin-bottom: 420px;
+	font-size: 17px;
+	line-height: 25px;
 }
 .group2 main h2{
 	font-size: 32px;
-	font-weight: 800;
 	color: #444444;
-	margin-top: 32px;
+	margin-top: 6px;
 	margin-bottom: 30px;
 }
 .group2 main h2 a{
@@ -436,7 +431,7 @@ h4 span{
     color: #ff5790;
 }
 .group2 .numb1{
-	margin-top: 462px;
+	margin-top: 464px;
 }
 
 .group3{
@@ -458,7 +453,6 @@ h4 span{
 }
 .group3 h2.head {
 	font-size: 32px;
-	font-weight: 800;
 	color: #444444;
 	line-height: 42px;
 }
@@ -481,7 +475,6 @@ h4 span{
 }
 .group3 main h2{
 	font-size: 32px;
-	font-weight: 800;
 	color: #444444;
 	margin-top: 27px;
 	margin-bottom: 30px;
@@ -510,7 +503,6 @@ h4 span{
 }
 .group4 h2.head {
 	font-size: 32px;
-	font-weight: 800;
 	color: #444444;
 	line-height: 42px;
 }
@@ -529,7 +521,6 @@ h4 span{
 }
 .group4 main h2{
 	font-size: 32px;
-	font-weight: 800;
 	color: #444444;
 	margin-top: 32px;
 	margin-bottom: 30px;

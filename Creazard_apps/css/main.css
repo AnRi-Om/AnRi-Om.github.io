@@ -501,7 +501,7 @@ h4{
     -webkit-text-fill-color: transparent;
     color: #444;
 }
-.group4 h2.head {
+.group4 h2.numb1 {
 	font-size: 32px;
 	color: #444444;
 	line-height: 42px;
@@ -517,6 +517,7 @@ h4{
 }
 .group4 main span{
 	color: #232323;
+	line-height: 25px;
 	margin-bottom: 925.8px;
 }
 .group4 main h2{

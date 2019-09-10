@@ -30,6 +30,143 @@ h4{
 	font-size: 17px;
 }
 
+#arrest{
+	background-color: rgba(0, 0, 0, 0.54);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    transition: all 0.5s ease;
+}
+#arrest:target{
+	display: block;
+}
+.pop-up{
+	width: 600px;
+    height: 517px;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    background: #fff;
+}
+.pop-up img{
+	position: absolute;
+	margin-left: 259.5px;
+	width: 21px;
+	height: 21px;
+	margin-top: 20px;
+	transition: all 0.5s ease;
+}
+.pop-up .heading{
+	font-size: 24px;
+	line-height: 36px;
+	color: #444;
+	margin-top: 80px;
+}
+.pop-up form{
+	display: flex;
+	flex-direction: column;
+	-ms-align-items: center;
+	align-items: center;
+}
+.pop-up input[type=text]{
+	margin-top: 50px;
+	font-family: 'Exo 2', sans-serif;
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 22px !important;
+	text-align: center;
+	color: #444;
+	width: 296px;
+	height: 52px;
+	border-radius: 2px;
+    border: solid 2px #e4e4e4;
+}
+::-webkit-input-placeholder {
+    font-family: 'Exo 2', sans-serif;
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 22px !important;
+	text-align: center;
+	color: #444;
+}
+::-moz-placeholder { /* Firefox 19+ */
+    font-family: 'Exo 2', sans-serif;
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 22px !important;
+	text-align: center;
+	color: #444;
+}
+:-ms-input-placeholder {
+    font-family: 'Exo 2', sans-serif;
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 22px !important;
+	text-align: center;
+	color: #444;
+}
+:-moz-placeholder { /* Firefox 18- */
+    font-family: 'Exo 2', sans-serif;
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 22px !important;
+	text-align: center;
+	color: #444;
+}
+.pop-up input[type=submit] {
+	width: 300px;
+	height: 52px;
+	border: none; 
+	padding-bottom: 4px;
+    background: #2c2c2c;
+    font-family: 'Exo 2', sans-serif !important;
+	font-weight: 800 !important;
+	font-size: 18px !important;
+	line-height: 22px !important;
+	color: #fff !important;
+}
+.pop-up .button {
+	margin-top: 15px;
+	align-items: center;
+	width: 300px;
+	height: 56px;
+	background-repeat:no-repeat;
+	border-radius: 2px;
+    background:  linear-gradient(to right, #ffc846, #ef578f 57%, #c057cb);
+    font-weight: 800;
+    line-height: 1.47;
+    cursor: pointer;
+    overflow: hidden;
+    outline:none;
+    color: #fff;
+    box-shadow: 0 7px 30px 0 rgba(0, 0, 0, 0.25);
+}
+.pop-up h4{
+	margin:0 auto;
+	margin-top: 50px;
+	line-height: 25px;
+	color: #232323;
+	max-width: 310px;
+}
+.pop-up h2{
+	margin-top: 19.5px;
+	line-height: 0;
+}
+.pop-up a{
+	font-size: 22px;
+	text-decoration: none;
+	background-image: linear-gradient(to right, #f89865, #ef578f 57%, #d557b0);
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #444;
+}
 
 .header .head h3{
 	margin: 0px;
@@ -579,8 +716,7 @@ h4{
 @media screen and (min-width: 345px) and (max-width: 805px){
 .header{
 	background: #0a0224 url("../img/block_1/1.jpg") no-repeat center top / cover;
-	height: auto;	
-    background-attachment: fixed;
+	height: auto;
 }
 .header .info{
 	width: 100%;

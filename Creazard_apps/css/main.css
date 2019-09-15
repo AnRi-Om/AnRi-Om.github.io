@@ -15,7 +15,7 @@ ul, li{
 }
 
 h2{
-	font-weight: 800;
+	font-weight: 700;
 	margin: 0;
 	font-size: 32px;	
 }
@@ -25,7 +25,7 @@ h3{
 	font-size: 20px;
 }
 h4{
-	font-weight: 500;
+	font-weight: 400;
 	margin: 0;
 	font-size: 17px;
 }
@@ -365,14 +365,19 @@ h5{
 	font-size: 18px;
 	margin-bottom: 30px;
 }
+.header .offer button{
+	background: none;
+	border: none;
+	margin-left: -150px;
+	margin-top: 80px;
+	margin-bottom: 268px;
+}
 .header .offer img.button{
 	width: 320px;
 	height: 116px;
-	margin-left: -30px;
 }
 .header .offer a{
-	margin-top: 80px;
-	margin-bottom: 268px;
+	
 }
 .header .offer h2{
 	max-width: 410px;
@@ -453,7 +458,6 @@ h5{
 	margin-top: 200px;
 }
 .block_3 .offices .head h2{
-  font-size: 32px;
   line-height: 42px;
   color: #444;
   margin-bottom: 30px;
@@ -474,17 +478,18 @@ h5{
 .block_3 iframe{
 	margin-bottom: 80px;
 }
-.block_3 .button a h2{
+.block_3 button a h2{
     line-height: 22px;
     font-size: 18px;
 }
-.block_3 .button a{
+.block_3 button a{
 	display: flex;
 	-ms-align-items: center;
 	align-items: center;
 	text-decoration: none;
 	background-repeat:no-repeat;
-	padding: 15.3px 45px;
+	padding: 15.3px 55px;
+	box-shadow: 0 7px 30px 0 rgba(0, 0, 0, 0.25);
 	border-radius: 2px;
     background-color: #2c2c2c;
     cursor: pointer;
@@ -492,9 +497,10 @@ h5{
     outline:none;
     color: #fff;
 }
-.block_3 .button{
-	max-width: 280px;
-	padding-bottom: 4px;
+.block_3 button{
+	border: none;
+	max-width: 281px;
+	padding:0px 0px 4px;
     background: linear-gradient(to right, #ffc846, #ef578f 57%, #c057cb);
     margin-bottom: 202px;
 }
@@ -707,25 +713,36 @@ h5{
 .block_5{
 	display: flex;
 	align-items: center;
+	height: 200px;
 }
-.block_5 .button{
-	max-width: 280px;
+.block_5 button{
+	background: none;
+	border: none;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0; 
+	max-width: 360px;
     margin: 0 auto;
     margin-top: 80px;
     margin-bottom: 90px;
 }
-.block_5 .button a{
+.block_5 button a{
 	display: flex;
+	flex-direction: column;
 	-ms-align-items: center;
 	align-items: center;
 	text-decoration: none;
-    font-weight: 800;
-    line-height: 1.47;
-    font-size: 18px;
+    font-weight: 700;
+    line-height: 36px;
+    font-size: 24px;
     cursor: pointer;
     overflow: hidden;
     outline:none;
     color: #444;
+}
+.block_5 button img{
+    width: 360px;
 }
 
 .block_6{
@@ -770,7 +787,7 @@ h5{
 	height: 20px;
 	margin-right: 24px;
 	float:left;
-	margin-top: 6px;			
+	margin-top: 2px;			
 }
 .block_6 main .content{
 	width: 600px;
@@ -784,6 +801,14 @@ h5{
   width: 500px;
   opacity: 0.54;
   margin-left: 44px;
+}
+.block_6 main .content .conteiner span{
+	font-size: 14px;
+	font-weight: 400;
+	font-style: italic;
+	line-height: 25px;
+	color: #232323;
+	opacity: 0.54;
 }
 .block_6 main.num2{
   display: flex;
@@ -807,17 +832,18 @@ h5{
 	float: left;
 	color: #fff;	
 }
-.block_6 .button a h2{
+.block_6 button a h2{
     line-height: 22px;
     font-size: 18px;
 }
-.block_6 .button a{
+.block_6 button a{
 	display: flex;
 	-ms-align-items: center;
 	align-items: center;
 	text-decoration: none;
 	background-repeat:no-repeat;
-	padding: 15.3px 45px;
+	padding: 15.3px 64px;
+	box-shadow: 0 7px 30px 0 rgba(0, 0, 0, 0.25);
 	border-radius: 2px;
     background-color: #2c2c2c;
     cursor: pointer;
@@ -825,13 +851,138 @@ h5{
     outline:none;
     color: #fff;
 }
-.block_6 .button{
+.block_6 button{
+	background: none;
+	border: none;
 	max-width: 280px;
-	padding-bottom: 4px;
+	padding:0px 0px 4px;
     background: linear-gradient(to right, #ffc846, #ef578f 57%, #c057cb);
     margin-top: 80px;
     margin-bottom: 200px;
 }
+.block_7{
+	text-align: center;
+ 	background: #fff url("../img/block_7/Group 8@2x.jpg" ) no-repeat center top / cover;
+	background-size: cover;
+    margin: 0;
+    padding: 0;
+	height: 1331px;
+	margin-top: 80px;
+	display: flex;
+	flex-direction: column;
+	align-items:center;
+}
+.block_7 .head a{
+	text-decoration: none;
+    background-image: linear-gradient(to right, #f89865, #ef578f 57%, #d557b0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #444;
+}
+.block_7 h2.head {
+	margin-top: 120px;
+	margin-bottom: 130px;	
+	width: 700px;
+	font-size: 32px;
+	color: #444444;
+	line-height: 42px;
+}
+.block_7 main{
+	display: flex;
+	flex-direction: column;
+	align-items:flex-end;
+	text-align: right;
+	width: 410px;
+    margin: 0 auto;
+    margin-right: 15.9%;
+    right: auto;
+}
+.block_7 main.one h2{
+	font-size: 19px;	
+	line-height: 29px;	
+	color: #444;
+	margin-bottom: 30px;	
+}
+.block_7 main.one .buttons{
+	display: flex;
+	justify-content: space-between;
+	width: 350px;
+}
+.block_7 main.one button{
+	background: none;
+	border: none;
+	padding: 0px;
+}
+.block_7 main.one span{
+	font-size: 14px;
+	font-weight: 400;
+	font-style: italic;
+	line-height: 25px;
+	color: #232323;
+	opacity: 0.54;
+	margin-bottom: 25px;
+}
+.block_7 main h4{
+	line-height: 25px;
+}
+.block_7 main p{
+	margin:10px;
+}
+.block_7 main.two button a h2{
+    line-height: 22px;
+    font-size: 18px;
+}
+.block_7 main.two button a{
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	text-decoration: none;
+	background-repeat:no-repeat;
+	padding: 15.3px 88.95px;
+	box-shadow: 0 7px 30px 0 rgba(0, 0, 0, 0.25);
+	border-radius: 2px;
+    background-color: #2c2c2c;
+    cursor: pointer;
+    overflow: hidden;
+    outline:none;
+    color: #fff;
+}
+.block_7 main.two button{
+	background: none;
+	border: none;
+	max-width: 280px;
+	padding:0px 0px 4px;
+    background: linear-gradient(to right, #ffc846, #ef578f 57%, #c057cb);
+    margin-top: 80px;
+}
+.block_7 main.three button a h2{
+    line-height: 22px;
+    font-size: 18px;
+}
+.block_7 main.three button a{
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	text-decoration: none;
+	background-repeat:no-repeat;
+	padding: 15.3px 50.5px;
+	box-shadow: 0 7px 30px 0 rgba(0, 0, 0, 0.25);
+	border-radius: 2px;
+    background-color: #2c2c2c;
+    cursor: pointer;
+    overflow: hidden;
+    outline:none;
+    color: #fff;
+}
+.block_7 main.three button{
+	background: none;
+	border: none;
+	max-width: 280px;
+	padding:0px 0px 4px;
+    background: linear-gradient(to right, #ffc846, #ef578f 57%, #c057cb);
+    margin-top: 80px;
+}
+
 
 @media screen and (min-width: 805px) and (max-width: 1001px){
 .header{

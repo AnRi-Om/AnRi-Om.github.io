@@ -1010,23 +1010,31 @@ h5{
     line-height: 42px;
 }
 .block_8 h3{
+	display: flex;
+	align-items: center;
+	text-align: center;
 	font-weight: 800;
-	font-size: 42px;
-	line-height: 56px;
+    font-size: 52px;
+    line-height: 46px;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     color: #444;
-    background-image: linear-gradient(to right, #ffc846, #ef578f 57%, #c057cb);
+    background-image: linear-gradient(to right, #f89765, #ef578f 57%, #d657af);
     margin-bottom: 20.7px;
 }
+.block_8 h3 .rub{
+	width: 25.8px;
+    height: 35px;
+    margin-left: 14px;
+    margin-top: 5px;
+}
 .block_8 h4{
-	margin-bottom: 50px;
+	margin-bottom: 105px;
 	line-height: 25px;
 }
-.block_8 .vid{
-	width: 720px;
-	height: 480px;
-	background-color: rgba(0, 0, 0, 0.8);
+.block_8 .screen{
+	width: 1040px;
+	height: 905px;
 	margin-bottom: 200px;
 }
 

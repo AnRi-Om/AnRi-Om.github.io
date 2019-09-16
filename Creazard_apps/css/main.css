@@ -871,8 +871,6 @@ h5{
 	text-align: center;
  	background: #fff url("../img/block_7/Group 8@2x.jpg" ) no-repeat center top / cover;
 	background-size: cover;
-    margin: 0;
-    padding: 0;
 	height: 1331px;
 	margin-top: 80px;
 	display: flex;
@@ -993,6 +991,43 @@ h5{
 	padding:0px 0px 4px;
     background: linear-gradient(to right, #ffc846, #ef578f 57%, #c057cb);
     margin-top: 80px;
+}
+
+.block_8{
+	text-align: center;
+	background-color: #f6f6f6;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	align-items:center;
+}
+.block_8 h2{
+	margin-top: 200px;
+    margin-bottom: 31px;
+    width: 700px;
+    font-size: 32px;
+    color: #444444;
+    line-height: 42px;
+}
+.block_8 h3{
+	font-weight: 800;
+	font-size: 42px;
+	line-height: 56px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #444;
+    background-image: linear-gradient(to right, #ffc846, #ef578f 57%, #c057cb);
+    margin-bottom: 20.7px;
+}
+.block_8 h4{
+	margin-bottom: 50px;
+	line-height: 25px;
+}
+.block_8 .vid{
+	width: 720px;
+	height: 480px;
+	background-color: rgba(0, 0, 0, 0.8);
+	margin-bottom: 200px;
 }
 
 

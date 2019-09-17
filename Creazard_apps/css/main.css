@@ -1017,6 +1017,7 @@ h5{
     font-size: 52px;
     line-height: 46px;
     text-decoration: none;
+    -webkit-mask-image: linear-gradient(to right, #f89765, #ef578f 57%, #d657af);
     background-image: linear-gradient(to right, #f89765, #ef578f 57%, #d657af);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

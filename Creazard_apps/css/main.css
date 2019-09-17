@@ -1003,7 +1003,7 @@ h5{
 }
 .block_8 h2{
 	margin-top: 200px;
-    margin-bottom: 22px;
+    margin-bottom: 24px;
     width: 700px;
     font-size: 32px;
     color: #444444;
@@ -1016,20 +1016,21 @@ h5{
 	font-weight: 800;
     font-size: 52px;
     line-height: 46px;
+    text-decoration: none;
+    background-image: linear-gradient(to right, #f89765, #ef578f 57%, #d657af);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     color: #444;
-    background-image: linear-gradient(to right, #f89765, #ef578f 57%, #d657af);
-    margin-bottom: 20.7px;
+    margin-bottom: 20px;
 }
 .block_8 h3 .rub{
 	width: 25.8px;
     height: 35px;
     margin-left: 14px;
-    margin-top: 5px;
+    margin-top: 7px;
 }
 .block_8 h4{
-	margin-bottom: 105px;
+	margin-bottom: 85px;
 	line-height: 25px;
 }
 .block_8 .screen{

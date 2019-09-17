@@ -1072,7 +1072,7 @@ h5{
 .block_11 .lines .line{
 	height: 496px;
     border: solid 1px #ebebeb;
-    margin: 0px 192px;
+    margin: 0px 182px;
 }
 .block_11 .info1{
 	margin-top: -466px;
@@ -1084,14 +1084,20 @@ h5{
 	font-size: 19px;
 	line-height: 29px;
 	color: #444;
+	margin:0 50px;
 }
-.block_11 .info1 img{
+.block_11 .next{
+	display: flex;
+	align-items:center;
+	text-align: center;
+}
+.block_11 .next img{
 	width: 75px;
-	height: 76px;
-	margin-right: 25.5px;
-	margin-left: 26.5px;
+    height: 76px;
+    margin: -866px 145px 0;
 }
 .block_11 .info2{
+	margin-top: 30px;
 	display: flex;
 	text-align: left;
 }
@@ -1101,6 +1107,7 @@ h5{
 	line-height: 25px;
 	color: #444;
 	margin:0 50px;
+	margin-bottom: 230px;
 }
 
 

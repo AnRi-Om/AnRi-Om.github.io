@@ -1179,7 +1179,7 @@ input:focus:-ms-input-placeholder { color:transparent; }
 	padding-bottom: 4px;
     background: #2c2c2c;
     font-family: 'Exo 2', sans-serif !important;
-	font-weight: 800 !important;
+	font-weight: 700 !important;
 	font-size: 18px !important;
 	line-height: 22px !important;
 	color: #fff !important;
@@ -1192,7 +1192,7 @@ input:focus:-ms-input-placeholder { color:transparent; }
 	background-repeat:no-repeat;
 	border-radius: 2px;
     background:  linear-gradient(to right, #ffc846, #ef578f 57%, #c057cb);
-    font-weight: 800;
+    font-weight: 700;
     line-height: 1.47;
     cursor: pointer;
     overflow: hidden;
@@ -1334,9 +1334,9 @@ input:focus:-ms-input-placeholder { color:transparent; }
     overflow: hidden;
     outline:none;
     color: #fff;
+	margin-bottom: 7.5px;
 }
 .block_11 .black button img.line{
-	margin-top: 7.5px;
     width: 265.9px;
     height: 4px;
 }

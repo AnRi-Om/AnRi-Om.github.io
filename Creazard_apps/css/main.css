@@ -1044,7 +1044,7 @@ h5{
 .block_9{
 	background: #444 url("../img/block_9/Fire_Accelerated_oxidation_Black_background_532520_1280x881@2x.jpg" ) no-repeat center top / cover;
 	color: #fff;
-	height: 1498px;
+	height: 1592px;
 	-webkit-background-size: cover;
 	background-size: cover;
 }
@@ -1206,8 +1206,19 @@ input:focus:-ms-input-placeholder { color:transparent; }
 	margin-top: 19px;
 	color: #fff;
 }
+.block_9 .politic{
+	margin-top: 14px;
+	width: 500px;
+	font-size: 14px;
+	color: #9e9a98;
+	line-height: 25px;
+}
+.block_9 .politic a{
+	color: #ffdc57;
+	border-bottom: 0.5px solid;
+}
 .block_9 h2.ask{
-	margin-top: 64px;
+	margin-top: 80px;
 	margin-bottom: 30px;
 	font-size: 32px;
 	line-height: 42px;

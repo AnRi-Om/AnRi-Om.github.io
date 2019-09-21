@@ -1295,6 +1295,9 @@ input:focus:-ms-input-placeholder { color:transparent; }
 	color: #444;
 	margin: 18px 0px 20px 0px;
 }
+.block_10 .ask-link{
+	display: block;
+}
 .block_10 .answer_txt {
 	display: none;
 	transition: max-height 5s;
@@ -1317,7 +1320,13 @@ border-bottom: 1.5px solid;
 	display: block;
 	max-height: 30rem;
 }
-.block_10 .ask:hover{	
+.block_10 .ask-link:target{	
+	border-radius: 2px;
+	background: #f6f6f6;
+	border: none;
+	padding: 1px;
+}
+.block_10 .ask-link:target{	
 	border-radius: 2px;
 	background: #f6f6f6;
 	border: none;

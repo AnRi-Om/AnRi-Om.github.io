@@ -1231,6 +1231,124 @@ input:focus:-ms-input-placeholder { color:transparent; }
 	color: #fff;
 }
 
+.block_10{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	-ms-align-items: center;
+	align-items: center;
+}
+.block_10 .icon{
+	margin-top: 200px;
+	margin-bottom: 12px;
+}
+.block_10 .answer a{
+	text-decoration: none;
+	background-image: linear-gradient(to right, #f89865, #ef578f 57%, #d557b0);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	color: #444;
+}
+.block_10 h2.head {
+	margin-bottom: 71px;
+	width: 700px;
+	font-size: 32px;
+	color: #444444;
+	line-height: 42px;
+}
+.block_10 .conteiner{
+	text-align: left;
+    background-color: #fff;
+    height: auto;
+    margin:0;
+    padding: 0;
+    flex-direction: column;
+    align-items: center;
+    width: 700px;
+}
+.block_10 ul{
+	list-style-type: none;
+}
+.block_10 .ask{
+	margin:10px 0px;
+	width: 700px;	
+	border-radius: 2px;
+	border: 1px solid #ebebeb;
+}
+.block_10 .ask img{
+	margin: 20px 30px 20px 20px;
+    float: left;
+}
+.block_10 .ask h2{
+	width: 592px;	
+	font-size: 19px;	
+	line-height: 29px;	
+	color: #444;
+	margin: 18px 0px 20px 0px;
+}
+.block_10 .answer_txt {
+	display: none;
+	transition: max-height 5s;
+}
+.block_10 .answer_txt a{
+	text-decoration: none;
+	color: #232323;
+}
+.block_10 .answer_txt h4{
+	width: 592px;	
+	font-size: 17px;	
+	line-height: 25px;
+	margin: 8px 0px 38px 78px;
+}
+.block_10 .answer_txt h4 .cell_us{
+color: #ff5790;
+border-bottom: 1.5px solid;
+}
+.block_10 .answer_txt:target{
+	display: block;
+	max-height: 30rem;
+}
+.block_10 .ask:hover{	
+	border-radius: 2px;
+	background: #ebebeb;
+	border: none;
+	padding: 1px;
+}
+.block_10 .conteiner button a h2{
+	font-family: 'Exo 2', sans-serif;
+	color: #fff;
+    line-height: 22px;
+    font-size: 18px;
+}
+.block_10 .conteiner button a{
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	text-decoration: none;
+	background-repeat:no-repeat;
+	padding: 18px 0px 20px;
+	border-radius: 2px 2px 0px 0px;
+    background-color: #2c2c2c;
+    cursor: pointer;
+    overflow: hidden;
+    outline:none;
+    color: #fff;
+}
+.block_10 button img{
+	margin: 0px 30px 0px 20px;
+    float: left;
+}
+.block_10 .conteiner button{
+	background: none;
+	border: none;
+	width: 100%;
+	border-radius: 2px;
+	padding:0px 0px 4px;
+	box-shadow: 0 7px 30px 0 rgba(0, 0, 0, 0.25);
+    background: linear-gradient(to right, #ffc846, #ef578f 57%, #c057cb);
+    margin-bottom: 180px;
+}
+
 .block_11{
 	text-align: center;
 	background-color: #fff;

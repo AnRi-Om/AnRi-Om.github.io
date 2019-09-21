@@ -247,7 +247,7 @@ h5{
 	-ms-align-items: center;
 	align-items: center;
 }
-.header .manual article{
+.header .manual span h4{
 	margin-top: 5px;	
 	opacity: 0.65;
 	font-size: 15px;

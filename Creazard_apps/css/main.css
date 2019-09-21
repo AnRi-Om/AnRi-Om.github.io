@@ -1256,6 +1256,13 @@ input:focus:-ms-input-placeholder { color:transparent; }
 	color: #444444;
 	line-height: 42px;
 }
+.block_10 h2.head a{
+	text-decoration: none;
+    background-image: linear-gradient(to right, #f89865, #ef578f 57%, #d557b0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #444;
+}
 .block_10 .conteiner{
 	text-align: left;
     background-color: #fff;
@@ -1276,6 +1283,8 @@ input:focus:-ms-input-placeholder { color:transparent; }
 	border: 1px solid #ebebeb;
 }
 .block_10 .ask img{
+	width: 28px;
+	height: 28px;
 	margin: 20px 30px 20px 20px;
     float: left;
 }
@@ -1310,7 +1319,7 @@ border-bottom: 1.5px solid;
 }
 .block_10 .ask:hover{	
 	border-radius: 2px;
-	background: #ebebeb;
+	background: #f6f6f6;
 	border: none;
 	padding: 1px;
 }

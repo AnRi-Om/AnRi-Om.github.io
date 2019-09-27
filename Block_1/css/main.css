@@ -300,6 +300,7 @@ h5{
 .header ul.topnav .logo{
   width: 26px;
   height: 28px;
+  margin-bottom: 5px;
 }
 .header ul.topnav li.menu{
   width: 48px;

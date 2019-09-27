@@ -7,3 +7,5 @@
 [03 Creazard_apps](https://anri-om.github.io/Creazard_apps/ "3-ая верстка")
 
 [04 Block_1](https://anri-om.github.io/Block_1/ "адаптив")
+
+[05 Block_2](https://anri-om.github.io/Block_2/ "адаптив 2")

@@ -42,7 +42,11 @@ h5{
 	text-align: center;
 }
 .block_2 .margin{
-	display: none;
+	display: flex;
+	max-width: 1008px;
+	margin: 0 auto;
+	align-items: center;
+	text-align: center;
 }
 .block_2 .basket{
 	width: 210px;

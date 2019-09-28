@@ -405,10 +405,8 @@ h5{
 .header .offer button{
   background: none;
   border: none;
-  margin-left: -12.5px;
+  margin: 15px 0px 0px;
   border-radius: 2px;
-  margin-top: 15px;
-  margin-bottom: 0px;
 }
 .header .offer img.button{
   width: 276px;

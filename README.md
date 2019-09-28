@@ -9,3 +9,5 @@
 [04 Block_1](https://anri-om.github.io/Block_1/ "адаптив")
 
 [05 Block_2](https://anri-om.github.io/Block_2/ "адаптив 2")
+
+[06 Block_3](https://anri-om.github.io/Block_3/ "адаптив 3")

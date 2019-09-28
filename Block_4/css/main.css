@@ -247,6 +247,8 @@ h4{
 	margin:0 25px;
 	width: auto;
 	align-items: center;
+	width: auto;
+	max-width: 1000px;
 }
 .group1{
  	text-align: center;

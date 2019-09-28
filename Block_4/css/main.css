@@ -1,0 +1,357 @@
+body {
+	font-family: 'Exo 2', sans-serif;
+	padding: 0;
+	margin: 0;
+	color: #000;
+}
+div, p, a, form, button{
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+ul, li{
+	box-sizing: border-box;
+}
+
+h2{
+	font-weight: 700;
+	margin: 0;
+	font-size: 32px;	
+}
+h3{
+	font-weight: 700;
+	margin: 0;
+	font-size: 20px;
+}
+h4{
+	font-weight: 400;
+	margin: 0;
+	font-size: 17px;
+}
+h5{
+	font-weight: 400;	
+	margin: 0;	
+}
+
+.group1{
+ 	text-align: center;
+ 	background: #fff url("../img/block_4/Group1/Group@2x.jpg" ) no-repeat center top / cover;
+	color: #fff;
+	border:none;
+	outline: none;
+	height: 100%;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.group1 .head a{
+	text-decoration: none;
+    background-image: linear-gradient(to right, #f89865, #ef578f 57%, #d557b0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #444;
+}
+.group1 h2.head {
+	color: #444444;
+	line-height: 42px;
+}
+.group1 main{
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	width: 100%;
+	max-width: 410px;
+	margin-left: 55.5%;
+	right: auto;
+}
+.group1 main span{
+	color: #232323;
+	margin-bottom: 80px;
+	line-height: 25px;
+}
+.group1 main h2{
+	color: #444444;
+	margin-top: 32px;
+	margin-bottom: 30px;
+}
+.group1 main h2 a{
+	text-decoration: none;
+    color: #ff5790;
+}
+.group1 .numb1{
+	margin-top: 267px;
+}
+.group1 .numb2{
+	margin-bottom: 419px;
+}
+
+.group2{
+ 	text-align: center;
+ 	background: #fff url("../img/block_4/Group2/iphone-xr + Rectangle Mask@2x.jpg" ) no-repeat center top / cover;
+	color: #fff;
+	border:none;
+	outline: none;
+	height: 100%;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.group2 .head a{
+	text-decoration: none;
+    background-image: linear-gradient(to right, #f89865, #ef578f 57%, #d557b0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #444;
+}
+.group2 h2.head {
+	color: #444444;
+	line-height: 42px;
+}
+.group2 main{
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	width: 100%;
+	max-width: 410px;
+	margin-left: 16%;
+	right: auto;
+}
+.group2 main span{
+	color: #232323;
+	margin-bottom: 420px;
+	font-size: 17px;
+	line-height: 25px;
+}
+.group2 main h2{
+	color: #444444;
+	margin-top: 6px;
+	margin-bottom: 30px;
+}
+.group2 main h2 a{
+	text-decoration: none;
+    color: #ff5790;
+}
+.group2 .numb1{
+	margin-top: 464px;
+}
+
+.group3{
+ 	text-align: center;
+ 	background: #fff url("../img/block_4/Group3/ww + Rectangle Mask@2x.jpg" ) no-repeat center top / cover;
+	color: #fff;
+	border:none;
+	outline: none;
+	height: 100%;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.group3 .head a{
+	text-decoration: none;
+    background-image: linear-gradient(to right, #f89865, #ef578f 57%, #d557b0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #444;
+}
+.group3 h2.head {
+	color: #444444;
+	line-height: 42px;
+}
+.group3 main{
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	width: 100%;
+	max-width: 700px;
+	margin-left: 16%;
+	right: auto;
+}
+.group3 main img{
+	margin-top: 243px;
+}
+.group3 main span{
+	color: #232323;
+	max-width: 600px;
+	margin-bottom: 920px;
+	line-height: 25px;
+}
+.group3 main h2{
+	color: #444444;
+	margin-top: 27px;
+	margin-bottom: 30px;
+}
+.group3 main h2 a{
+	text-decoration: none;
+    color: #ff5790;
+}
+
+.group4{
+ 	text-align: center;
+ 	background: #fff url("../img/block_4/Group4/galaxy-s7@2x.jpg" ) no-repeat center top / cover;
+	color: #fff;
+	border:none;
+	outline: none;
+	height: auto;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.group4 .head a{
+	text-decoration: none;
+    background-image: linear-gradient(to right, #f89865, #ef578f 57%, #d557b0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #444;
+}
+.group4 h2.numb1 {
+	color: #444444;
+	line-height: 42px;
+}
+.group4 main{
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	width: 100%;
+	max-width: 410px;
+	margin-left: 16%;
+	right: auto;
+}
+.group4 main span{
+	color: #232323;
+	line-height: 25px;
+	margin-bottom: 785px;
+}
+.group4 main h2{
+	color: #444444;
+	margin-top: 32px;
+	margin-bottom: 30px;
+}
+.group4 main h2 a{
+	text-decoration: none;
+    color: #ff5790;
+}
+.group4 .numb1{
+	margin-top: 234px;
+}
+
+@media screen and (min-width: 0px) and (max-width: 736px){
+
+h2{
+    font-size: 22px;
+}
+h3{
+    font-size: 12px;
+}
+h4{
+    font-size: 17px;
+}
+
+.block_4 main{
+	margin:0 25px;
+	width: auto;
+	align-items: center;
+}
+.group1{
+ 	text-align: center;
+ 	background: #fff url("../img/block_4/Group1/mobile/2@2x.png" ) no-repeat center top / cover;
+	color: #fff;
+	border:none;
+	outline: none;
+	height: 100%;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.group1 h2.head {
+	color: #444444;
+	line-height: 32px;
+	margin: -6.5px 25px 0px;
+}
+.group1 .numb1{
+	margin-top: 55px;
+}
+.group1 main h2 a{
+	text-decoration: none;
+    color: #ff5790;
+}
+.group1 main span{
+	color: #232323;
+	margin-bottom: 0;
+	margin-top: 25px;
+	line-height: 25px;
+}
+.group1 main h2{
+	color: #444444;
+	margin-top: 661px;
+	margin-bottom: 0px;
+}
+.group1 .numb2{
+	margin-bottom: 80px;
+}
+
+.group2{
+ 	text-align: center;
+ 	background: #fff url("../img/block_4/Group2/mobile/3@2x.png" ) no-repeat center top / cover;
+	color: #fff;
+	border:none;
+	outline: none;
+	height: 100%;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.group2 .numb1{
+	margin-top: 80px;
+}
+.group2 main h2{
+	color: #444444;
+	margin-top: 6px;
+	margin-bottom: 25px;
+	text-align: center;
+}
+.group2 main span{
+	color: #232323;
+	margin-bottom: 768px;
+	font-size: 17px;
+	line-height: 25px;
+}
+
+.group3{
+ 	text-align: center;
+ 	background: #fff url("../img/block_4/Group3/mobile/4@2x.png" ) no-repeat center top / cover;
+	color: #fff;
+	border:none;
+	outline: none;
+	height: 100%;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.group3 main img{
+	margin-top: 80px;
+}
+.group3 main h2{
+	color: #444444;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 25px;
+}
+.group3 main span{
+	margin-bottom: 586px;
+}
+
+.group4{
+ 	text-align: center;
+ 	background: #fff url("../img/block_4/Group4/mobile/5@2x.png" ) no-repeat center top / cover;
+	color: #fff;
+	border:none;
+	outline: none;
+	height: 100%;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.group4 h2.numb1 {
+	color: #444444;
+	text-align: center;
+	line-height: 32px;
+	margin-top: 80px;
+	margin-bottom: 25px;
+}
+.group4 main span{
+	margin-bottom: 668px;
+}
+}

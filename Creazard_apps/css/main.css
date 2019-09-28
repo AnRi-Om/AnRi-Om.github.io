@@ -32,7 +32,6 @@ h4{
 h5{
 	font-weight: 400;	
 	margin: 0;	
-
 }
 
 #arrest{
@@ -179,7 +178,7 @@ h5{
 	color: #fff;
 }
 .header{
-    background: #0a0224 url("../img/block_1/1@3x.jpg" ) no-repeat center top / cover;
+    background: #2f5483 url("../img/block_1/1@3x.jpg" ) no-repeat center top / cover;
 	color: #fff;
 	height: auto;
 	margin:0;
@@ -1656,7 +1655,7 @@ border-bottom: 1.5px solid;
 }
 
 
-@media screen and (min-width: 805px) and (max-width: 1001px){
+@media screen and (min-width: 735px) and (max-width: 1080px){
 .header{
 	background: #0a0224 url("../img/block_1/1@2x.jpg") no-repeat center top / cover;
 	height: auto;	
@@ -1699,58 +1698,29 @@ border-bottom: 1.5px solid;
 }
 
 
-@media screen and (min-width: 345px) and (max-width: 805px){
+@media screen and (min-width: 0px) and (max-width: 736px){
 .header{
-	background: #0a0224 url("../img/block_1/1.jpg") no-repeat center top / cover;
-	height: auto;
+	background: #0a0224 url("../img/block_1/mobile/1@2x.png") no-repeat center top / cover;
+	height: auto; 
+	padding-top: 159px;
 }
-.header .info{
-	width: 100%;
+.header .gradient{
+	display: none;
 }
-.header .rectangle{
-	height: 100vh;
-  	min-height: 1280px;
- }
+.header .line{
+	display: none;
+}
 .header .conteiner{
-	width: 96%;
-	max-width: 980px;
-	margin: 0 auto;
+	display: none;
 }
 .header .manual{
-	text-align: right;
-    margin-right: 25px;
+	display: none;
 }
 .header .contacts{
-	display: none
+	flex-direction: column;
+	-ms-align-items: end;
+	align-items: end;
 }
-.header .firstbtn{
-	margin-top: 13px;
-	margin-left: 22px;
-	padding: 10px 20px;
-}
-.header .firstbtn:hover{
-    margin-top: 13px;
-	margin-left: 22px;
-    }
-.header .logo{
-	display: contents;
-    text-align: right;
-    justify-content: space-between;
-}
-
-.header .logocreazard{
-	width: 90px;
-	margin-bottom: 10px;
-}
-.header .firstbtn{
-	margin-top: 13px;
-	margin-left: 36px;
-	padding: 7px 14px;
-}
-.header .firstbtn:hover{
-    margin-top: 13px;
-	margin-left: 36px;
-    }
 .header .navbar{
 	display: none;
 }
@@ -1761,9 +1731,9 @@ border-bottom: 1.5px solid;
     margin: 0 auto;
     padding: 0;
     list-style-type: none;
-    margin-top: 10px;
+    margin-top: -148px;
     max-width: 926px;
-    width: 98%;
+    width: 97%;
     float:left;
 }
 .header .topnav li{
@@ -1772,56 +1742,7 @@ border-bottom: 1.5px solid;
  	font-size: 	15px;
  	margin-top: 15px;	
 }
-.header .topnav li.active {
-	background-repeat: no-repeat;
-    padding: 10px 15px;
-    border-radius: 2px;
-    font-weight: 700;
-    line-height: 1.47;
-    font-size: 15px;
-    cursor: pointer;
-    overflow: hidden;
-    outline: none;	
-    background-color: #ec5793;
-    color: #fff;
-}
-.header .menu-btn span,
-.header .menu-btn span::before,
-.header .menu-btn span::after {
-  position: absolute;
-  margin-top: 0px; 
-  width: 20px;
-  height: 2px;
-  background-color: #fff;
-}
-.header .menu-btn span::before,
-.header .menu-btn span::after {
-  content: '';
-  display: block;
-  transition: 0.2s;
-}
-.header .menu-btn span::before {
-  transform: translateY(-5px);
-}
-.header .menu-btn span::after {
-  transform: translateY(5px);
-}
-.header .menu-btn{
-	float: left;
-	transition: all 0.3s ease;
-	margin-top: -4px;
-	margin-left: 35px;
-}
-.header .menu-btn:hover{
-	background-repeat:no-repeat;
-	padding: 15px 29px 15px 9px;
-	border-radius: 2px;
-    background: rgba(255,255,255,0.2);
-    cursor: pointer;
-    overflow: hidden;
-    outline:none;
-    margin: -9px -29px -15px -9px;
-}
+
 .header ul.topnav li ul{
 	list-style-type: none;
     width: 100%;
@@ -1874,33 +1795,4 @@ border-bottom: 1.5px solid;
     overflow: hidden;
     outline: none;	
 }
-}
-@media screen and (min-width: 345px) and (max-width: 600px){
-	.header .rectangle{
-	min-height: 1250px;
-	}
-	.header .contacts{
-	flex-direction: column;
-    align-items: flex-end;
-	}
-	.header .firstbtn{
-	margin-top: 13px;
-    margin-right: 24px;
-    padding: 7px 14px;
-	}
-	.header .manual{
-		display: none;
-	}
-	.header .logo{
-	flex-direction: column;
-    align-items: end;
-	}
-	.header .logocreazard{
-	
-    width: 90px;
-    margin-bottom: 10px;
-	}
-	.header .topnav{
-		width: 97%;
-	}
 }

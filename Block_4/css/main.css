@@ -250,6 +250,9 @@ h4{
 	width: auto;
 	max-width: 1000px;
 }
+.block_4 main h2{
+	line-height: 32px;
+}
 .group1{
  	text-align: center;
  	background: #fff url("../img/block_4/Group1/mobile/2@2x.png" ) no-repeat center top / cover;

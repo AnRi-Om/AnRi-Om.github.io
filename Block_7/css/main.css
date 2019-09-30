@@ -48,6 +48,9 @@ h5{
 	flex-direction: column;
 	align-items:center;
 }
+.block_7 .margin{
+	display: contents;
+}
 .block_7 .head a{
 	text-decoration: none;
     background-image: linear-gradient(to right, #f89865, #ef578f 57%, #d557b0);
@@ -194,6 +197,7 @@ h4{
 	align-items:center;
 }
 .block_7 .margin{
+	display: block;
 	margin: 0 25px;
 }
 .block_7 h2.head {

@@ -1,0 +1,388 @@
+body {
+	font-family: 'Exo 2', sans-serif;
+	padding: 0;
+	margin: 0;
+	color: #000;
+}
+div, p, a, form, button{
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+ul, li{
+	box-sizing: border-box;
+}
+
+h2{
+	font-weight: 700;
+	margin: 0;
+	font-size: 32px;	
+}
+h3{
+	font-weight: 700;
+	margin: 0;
+	font-size: 20px;
+}
+h4{
+	font-weight: 400;
+	margin: 0;
+	font-size: 17px;
+}
+h5{
+	font-weight: 400;	
+	margin: 0;	
+}
+.margin{
+	display: contents;
+}
+.block_8{
+	text-align: center;
+	background-color: #f6f6f6;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	align-items:center;
+}
+.block_8 h2{
+	margin-top: 200px;
+    margin-bottom: 24px;
+    width: 700px;
+    color: #444444;
+    line-height: 42px;
+}
+.block_8 h3{
+	display: flex;
+	align-items: center;
+	text-align: center;
+    margin-bottom: 20px;
+}
+.block_8 h3 a{
+	background-image: linear-gradient(to right, #f89765, #ef578f 57%, #d657af);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #444;
+    font-weight: 800;
+    font-size: 52px;
+    line-height: 46px;
+    text-decoration: none;
+}
+.block_8 h3 .rub{
+	width: 25.8px;
+    height: 35px;
+    margin-left: 14px;
+    margin-top: 7px;
+}
+.block_8 h4{
+	margin-bottom: 85px;
+	line-height: 25px;
+}
+.block_8 .screen{
+	width: 1040px;
+	height: 905px;
+	margin-bottom: 200px;
+}
+
+.block_9{
+	background: #444 url("../img/block_9/Fire_Accelerated_oxidation_Black_background_532520_1280x881@2x.jpg" ) no-repeat center top / cover;
+	color: #fff;
+	height: 1592px;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.block_9 .content{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	-ms-align-items: center;
+	align-items: center;
+}
+.block_9 .content h2.head{
+	margin-top: 200px;
+	margin-bottom: 48px;
+	line-height: 42px;
+	color: #fff;
+}
+.block_9 .content img.mount{
+	display: block;
+	width: 870px;
+	height: 762px;
+}
+.block_9 .content .crop{
+	display: none;
+}
+.block_9 .content .stroke{
+	display: flex;
+}
+.block_9 .stroke .pricelist{
+	display: flex;
+	flex-direction: column;
+	align-items:center;
+	width: 326px;
+}
+.block_9 .stroke .pricelist.ver1{
+	margin-right: 79.9px;
+    margin-left: -25px;
+}
+.block_9 .pricelist h2{
+	font-size: 24px;
+	line-height: 36px;
+	color: #444;
+}
+.block_9 .pricelist h2 a{
+	color: #ff5790;
+}
+.block_9 .pricelist .pricehead{
+	margin-top: -617px;
+}
+.block_9 .pricelist .price{
+	font-size: 32px;
+	margin-top: 52px;
+	color: #ff5790;
+}
+.block_9 .pricelist .discount{
+	margin-top: 39px;
+	margin-right: 4px;
+	position: relative;
+}
+.block_9 .pricelist .discount:before{
+	border-bottom: solid 2px #ff5790;
+    position: absolute;
+    content: "";
+    margin-left: -8px;
+    width: 121px;
+    height: 50%;
+    transform: rotate(7deg);
+}
+.block_9 .pricelist .time{
+	line-height: 24px;
+	margin-top: 30px;
+	color: #232323;
+}
+.block_9 form{
+	display: flex;
+	flex-direction: column;
+	-ms-align-items: center;
+	align-items: center;
+}
+.block_9 input[type=text]{
+	margin-top: 64px;
+	font-family: 'Exo 2', sans-serif;
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 22px !important;
+	text-align: center;
+	color: #444;
+	width: 280px;
+	height: 54px;
+	border-radius: 2px;
+	border: none;
+}
+input:focus::-webkit-input-placeholder { color:transparent; }
+input:focus:-moz-placeholder { color:transparent; }
+input:focus::-moz-placeholder { color:transparent; } 
+input:focus:-ms-input-placeholder { color:transparent; }
+
+::-webkit-input-placeholder {
+    font-family: 'Exo 2', sans-serif;
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 22px !important;
+	text-align: center;
+	color: #444;
+}
+::-moz-placeholder { /* Firefox 19+ */
+    font-family: 'Exo 2', sans-serif;
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 22px !important;
+	text-align: center;
+	color: #444;
+}
+:-ms-input-placeholder {
+    font-family: 'Exo 2', sans-serif;
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 22px !important;
+	text-align: center;
+	color: #444;
+}
+:-moz-placeholder { /* Firefox 18- */
+    font-family: 'Exo 2', sans-serif;
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 22px !important;
+	text-align: center;
+	color: #444;
+}
+.block_9 input[type=submit] {
+	width: 280px;
+	height: 52px;
+	border: none; 
+	padding-bottom: 4px;
+    background: #2c2c2c;
+    font-family: 'Exo 2', sans-serif !important;
+	font-weight: 800 !important;
+	font-size: 18px !important;
+	line-height: 22px !important;
+	color: #fff !important;
+}
+.block_9 .button {
+	margin-top: 20px;
+	align-items: center;
+	width: 280px;
+	height: 56px;
+	background-repeat:no-repeat;
+	border-radius: 2px;
+    background:  linear-gradient(to right, #ffc846, #ef578f 57%, #c057cb);
+    font-weight: 800;
+    line-height: 1.47;
+    cursor: pointer;
+    overflow: hidden;
+    outline:none;
+    color: #fff;
+    box-shadow: 0 7px 30px 0 rgba(0, 0, 0, 0.25);
+}
+.block_9 .of{
+	line-height: 24px;
+	margin-top: 19px;
+	color: #fff;
+}
+.block_9 .politic{
+	margin-top: 14px;
+	width: 500px;
+	font-size: 14px;
+	color: #9e9a98;
+	line-height: 25px;
+}
+.block_9 .politic a{
+	color: #ffdc57;
+	border-bottom: 0.5px solid;
+}
+.block_9 h2.ask{
+	margin-top: 80px;
+	margin-bottom: 30px;
+	font-size: 32px;
+	line-height: 42px;
+	color: #fff;
+}
+.block_9 h4.ask{
+	line-height: 25px;
+	width: 600px;
+	color: #fff;
+}
+
+@media screen and (min-width: 0px) and (max-width: 736px){
+
+h2{
+    font-size: 22px;
+}
+h3{
+    font-size: 12px;
+}
+h4{
+    font-size: 17px;
+}
+
+.margin{
+	display: block;
+	margin:0 25px;
+}
+.block_8 h2{
+	margin-top: 80px;
+    margin-bottom: 29px;
+    width: 100%;
+    color: #444444;
+    line-height: 32px;
+}
+.block_8 h3{
+	display: block;
+}
+.block_8 .screen{
+	width: 86.7%;
+	height: auto;
+	margin-bottom: 60.4px;
+}
+
+.block_9{
+	background: #444 url("../img/block_9/mobile/6@2x.png" ) no-repeat center top / cover;
+	color: #fff;
+	height: auto;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.block_9 .content img.mount{
+	display: none;
+}
+.block_9 .content .crop{
+	display: block;
+	max-width: 350px;
+	margin:0 auto;
+}
+.block_9 .content img.mount2{
+	display: block;
+	width: 350px;
+	height: 1230px;
+	margin:0 auto;
+}
+.block_9 .content .stroke{
+	display: flex;
+	flex-direction: column;
+	margin-top: -526px;
+}
+.block_9 .content h2.head{
+	margin-top: 80px;
+	margin-bottom: 50px;
+	line-height: 32px;
+	color: #fff;
+}
+.block_9 .pricelist{
+	margin:0 auto !important;
+}
+.block_9 .ver2{
+	padding-top: 630px;
+}
+.block_9 .pricelist h2{
+	font-size: 22px;
+	line-height: 32px;
+}
+.block_9 .pricelist .price{
+	margin-top: 55px;
+	margin-right: 10px;
+}
+.block_9 .pricelist .discount{
+	margin-top: 37px;
+	margin-right: 15px;
+}
+.block_9 .pricelist .time{
+	display: none;
+}
+.block_9 .of{
+	line-height: 24px;
+	margin-top: -220px;
+	color: #232323;
+}
+.block_9 input[type=text]{
+	margin-top: 112px;
+}
+.block_9 .politic{
+	display: block;
+	margin-top: -80px;
+	width: 100%;
+	font-size: 14px;
+	color: #9e9a98;
+	line-height: 25px;
+}
+.block_9 h2.ask{
+	margin-top: 80px;
+	margin-bottom: 25px;
+	line-height: 32px;
+	color: #fff;
+}
+.block_9 h4.ask{
+	line-height: 25px;
+	width: 100%;
+	color: #fff;
+	margin-bottom: 145px;
+}
+}

@@ -108,9 +108,6 @@ h5{
 	width: 870px;
 	height: 762px;
 }
-.block_9 .content .crop{
-	display: none;
-}
 .block_9 .content .stroke{
 	display: flex;
 }
@@ -168,7 +165,7 @@ h5{
 .block_9 input[type=text]{
 	margin-top: 64px;
 	font-family: 'Exo 2', sans-serif;
-	font-weight: 800;
+	font-weight: 700;
 	font-size: 18px;
 	line-height: 22px !important;
 	text-align: center;
@@ -185,7 +182,7 @@ input:focus:-ms-input-placeholder { color:transparent; }
 
 ::-webkit-input-placeholder {
     font-family: 'Exo 2', sans-serif;
-	font-weight: 800;
+	font-weight: 700;
 	font-size: 18px;
 	line-height: 22px !important;
 	text-align: center;
@@ -193,7 +190,7 @@ input:focus:-ms-input-placeholder { color:transparent; }
 }
 ::-moz-placeholder { /* Firefox 19+ */
     font-family: 'Exo 2', sans-serif;
-	font-weight: 800;
+	font-weight: 700;
 	font-size: 18px;
 	line-height: 22px !important;
 	text-align: center;
@@ -201,7 +198,7 @@ input:focus:-ms-input-placeholder { color:transparent; }
 }
 :-ms-input-placeholder {
     font-family: 'Exo 2', sans-serif;
-	font-weight: 800;
+	font-weight: 700;
 	font-size: 18px;
 	line-height: 22px !important;
 	text-align: center;
@@ -209,7 +206,7 @@ input:focus:-ms-input-placeholder { color:transparent; }
 }
 :-moz-placeholder { /* Firefox 18- */
     font-family: 'Exo 2', sans-serif;
-	font-weight: 800;
+	font-weight: 700;
 	font-size: 18px;
 	line-height: 22px !important;
 	text-align: center;
@@ -222,12 +219,12 @@ input:focus:-ms-input-placeholder { color:transparent; }
 	padding-bottom: 4px;
     background: #2c2c2c;
     font-family: 'Exo 2', sans-serif !important;
-	font-weight: 800 !important;
+	font-weight: 700 !important;
 	font-size: 18px !important;
 	line-height: 22px !important;
 	color: #fff !important;
 }
-.block_9 .button {
+.block_9 .button{
 	margin-top: 20px;
 	align-items: center;
 	width: 280px;
@@ -311,47 +308,41 @@ h4{
 	-webkit-background-size: cover;
 	background-size: cover;
 }
+.block_9 .content h2.head{
+	position: absolute;
+    margin: 80px 25px;
+    margin-left: -167px;
+    left: 50%;
+    line-height: 32px;
+    color: #fff;
+}
 .block_9 .content img.mount{
 	display: none;
 }
-.block_9 .content .crop{
-	display: block;
-	max-width: 350px;
-	margin:0 auto;
-}
-.block_9 .content img.mount2{
-	display: block;
-	width: 350px;
-	height: 1230px;
-	margin:0 auto;
-}
 .block_9 .content .stroke{
-	display: flex;
-	flex-direction: column;
-	margin-top: -526px;
-}
-.block_9 .content h2.head{
-	margin-top: 80px;
-	margin-bottom: 50px;
-	line-height: 32px;
-	color: #fff;
+	display: block;
+    flex-direction: column;
+    margin-top: 145px;
 }
 .block_9 .pricelist{
 	margin:0 auto !important;
 }
+.block_9 .pricelist .pricehead{
+	margin-top: 138px;
+}
 .block_9 .ver2{
-	padding-top: 630px;
+	padding-top: 225px;
 }
 .block_9 .pricelist h2{
 	font-size: 22px;
 	line-height: 32px;
 }
 .block_9 .pricelist .price{
-	margin-top: 55px;
+	margin-top: 53px;
 	margin-right: 10px;
 }
 .block_9 .pricelist .discount{
-	margin-top: 37px;
+	margin-top: 40px;
 	margin-right: 15px;
 }
 .block_9 .pricelist .time{
@@ -363,7 +354,7 @@ h4{
 	color: #232323;
 }
 .block_9 input[type=text]{
-	margin-top: 112px;
+	margin-top: 114px;
 }
 .block_9 .politic{
 	display: block;
@@ -372,14 +363,17 @@ h4{
 	font-size: 14px;
 	color: #9e9a98;
 	line-height: 25px;
+	display: none;
 }
 .block_9 h2.ask{
-	margin-top: 80px;
+	margin-top: 322px;
+	font-size: 22px;
 	margin-bottom: 25px;
 	line-height: 32px;
 	color: #fff;
 }
 .block_9 h4.ask{
+	font-size: 17px;
 	line-height: 25px;
 	width: 100%;
 	color: #fff;

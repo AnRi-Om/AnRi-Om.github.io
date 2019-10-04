@@ -194,6 +194,9 @@ h4{
 .block_10 .ask img{
 	margin: 20px 30px 30px 20px;
 }
+.block_10 .ask .margin{
+	margin-left: 6.5rem;
+}
 .block_10 .ask h2{
 	font-size: 19px;
 	line-height: 29px;
@@ -207,7 +210,7 @@ h4{
 	display: block;
 	border: none;
 	background: none;
-	margin:0 auto;
+	margin:20px auto 80px;
 }
 .block_10 .detailed a{
 	display: block;
@@ -217,6 +220,6 @@ h4{
     border-bottom: solid 0.5px #ff5790;
 }
 .block_10 .answer_txt:target{
-	max-height: 35rem;
+	max-height: 60rem;
 }
 }

@@ -59,19 +59,20 @@ h5{
 }
 .block_8 h3 a{
 	background-image: linear-gradient(to right, #f89765, #ef578f 57%, #d657af);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    color: #444;
-    font-weight: 800;
-    font-size: 52px;
-    line-height: 46px;
-    text-decoration: none;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	color: #444;
+	font-weight: 700;
+	font-size: 46px;
+	line-height: 46px;
+	text-decoration: none;
 }
 .block_8 h3 .rub{
-	width: 25.8px;
-    height: 35px;
-    margin-left: 14px;
-    margin-top: 7px;
+	width: 20.8px;
+	height: 30px;
+	margin-left: 10px;
+	margin-top: 0px;
+	margin-bottom: 1px;
 }
 .block_8 h4{
 	margin-bottom: 85px;
@@ -215,10 +216,11 @@ input:focus:-ms-input-placeholder { color:transparent; }
 .block_9 input[type=submit] {
 	width: 280px;
 	height: 52px;
-	border: none; 
+	border: none;
+	border-radius: 2px 2px 0px 0px;
 	padding-bottom: 4px;
-    background: #2c2c2c;
-    font-family: 'Exo 2', sans-serif !important;
+	background: #2c2c2c;
+	font-family: 'Exo 2', sans-serif !important;
 	font-weight: 700 !important;
 	font-size: 18px !important;
 	line-height: 22px !important;
@@ -302,19 +304,20 @@ h4{
 }
 
 .block_9{
-	background: #444 url("../img/block_9/mobile/6@2x.png" ) no-repeat center top / cover;
+	background: #444 url("../img/block_9/mobile/6@2x.png" ) no-repeat center/ cover;
 	color: #fff;
-	height: auto;
+	height: 100%;
 	-webkit-background-size: cover;
 	background-size: cover;
 }
 .block_9 .content h2.head{
 	position: absolute;
-    margin: 80px 25px;
-    margin-left: -167px;
-    left: 50%;
-    line-height: 32px;
-    color: #fff;
+	margin: 80px 25px;
+	margin-left: -167px;
+	left: 50%;
+	max-width: 316.8px;
+	line-height: 32px;
+	color: #fff;
 }
 .block_9 .content img.mount{
 	display: none;

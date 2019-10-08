@@ -637,6 +637,8 @@ label span { font-size: 50pt; }
   position: relative;
   margin-top: 50px;
   height: 100%;
+  margin-bottom: -5px;
+  padding-bottom: 2px;
   border-top: solid 0.5px rgba(255,255,255,0.2);
   background: #000;
   width: 100%;

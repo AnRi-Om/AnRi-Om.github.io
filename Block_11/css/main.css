@@ -552,6 +552,10 @@ label span { font-size: 50pt; }
 	line-height: 25px;
 	margin: 40px auto 35px;
 }
+.block_11 .black{
+	margin-bottom: -192px;
+	background-color: rgba(255,255,255,0);
+}
 .block_11 .black img.icon {
     width: 140px;
     margin-top: -69px;
@@ -632,7 +636,7 @@ label span { font-size: 50pt; }
 .block_12 .backbar{
   position: relative;
   margin-top: 50px;
-  height: 48px;
+  height: 100%;
   border-top: solid 0.5px rgba(255,255,255,0.2);
   background: #000;
   width: 100%;
@@ -641,6 +645,7 @@ label span { font-size: 50pt; }
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 48px;
   background-image: #000;
   left: 3.5%;
   margin: 0 auto;
@@ -650,6 +655,9 @@ label span { font-size: 50pt; }
 }
 .block_12 ul.topnav li{
   list-style-type: none;
+}
+.block_12 ul.topnav li a{
+	font-size: 0;
 }
 .block_12 ul.topnav .logo{
   width: 26px;

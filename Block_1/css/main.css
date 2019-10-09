@@ -16,7 +16,7 @@ ul, li{
 h2{
   font-weight: 700;
   margin: 0;
-  font-size: 32px;  
+  font-size: 32px;
 }
 h3{
   font-weight: 700;
@@ -31,6 +31,9 @@ h4{
 h5{
   font-weight: 400; 
   margin: 0;  
+}
+.margin{
+  display: contents;
 }
 .header .head h3{
   margin: 0px;
@@ -222,15 +225,33 @@ h5{
 }
 .header .offer h3{
   font-size: 18px;
-  margin-bottom: 30px;
+  margin-bottom: 21px;
 }
 .header .offer button{
   background: none;
   border: none;
+}
+.header .offer .buttons{
+  display: flex;
+  justify-content: space-between;
+  -ms-align-items: center;
+  align-items: center;
+  max-width:116.8px;
+  margin-top: 30px;
+}
+.header .offer .android img{
+  width: 40px;
+  height: 40px;
+}
+.header .offer .ios img{
+  width: 33.3px;  
+  height: 33.3px;  
+}
+.header .offer .buy{
   border-radius: 2px;
   margin-left: -35px;
-  margin-top: 80px;
-  margin-bottom: 268px;
+  margin-top: 48.5px;
+  margin-bottom: 112px;
 }
 .header .offer img.button{
   width: 320px;
@@ -238,8 +259,9 @@ h5{
 }
 .header .offer h2{
   max-width: 410px;
-  font-weight: 32px;
-  line-height: 42px;
+  font-weight: 800;
+  line-height: 52px;
+  font-size: 42px;
 }
 
 @media screen and (min-width: 0px) and (max-width: 736px){
@@ -252,6 +274,7 @@ h5{
   h4{
     font-size: 17px;
   }
+
 .header{
   background: #2f5483 url("../img/block_1/mobile/1@2x.png") no-repeat center top / cover;
   height: 859px; 
@@ -300,7 +323,6 @@ h5{
 .header ul.topnav .logo{
   width: 26px;
   height: 28px;
-  margin-bottom: 5px;
 }
 .header ul.topnav li.menu{
   width: 48px;
@@ -316,7 +338,7 @@ h5{
     position: absolute;
     right: 0;
     transition: all 0.5s ease;
-    margin-top: -0.3rem;
+    margin-top: -0.4rem;
     background: rgba(0,0,0,1);
 
 }
@@ -393,6 +415,7 @@ h5{
 }
 .header .offer h2{
   line-height: 32px;
+  font-size: 22px;
 }
 .header .head{
   margin-top: 86px;
@@ -402,13 +425,21 @@ h5{
   max-width: 325px;
   margin-top: 22px;
 }
-.header .offer button{
+.header .offer .android img{
+  width: 30px;
+  height: 30px;
+}
+.header .offer .ios img{
+  width: 25px;  
+  height: 25px;  
+}
+.header .offer .buy{
   background: none;
   border: none;
   margin: 15px 0px 0px;
   border-radius: 2px;
 }
-.header .offer img.button{
+.header .offer img.buy{
   width: 276px;
   height: 100px;
 }

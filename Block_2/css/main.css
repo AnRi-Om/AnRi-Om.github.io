@@ -76,10 +76,11 @@ h5{
 }
 .block_2 .content span img{
 	width: 28px;
-	height: 28px;
-	padding-top: 14px;
-	margin-bottom: -8px;
-	margin-right: 5px;
+    height: 28px;
+    float: left;
+}
+.block_2 .content h4{
+	display: flow-root;
 }
 .block_2 .content .shops{
 	margin-top: 53px;
@@ -110,7 +111,7 @@ h5{
     flex-direction: column;
     margin: 0 auto;
     align-items: center;
-	min-width:100%;
+    min-width: 100%;
 }
 .block_2 .basket{
 	width: 110px;
@@ -149,6 +150,6 @@ h5{
 	margin-bottom: 80px;
 }
 .block_2 .content .device{
-	width: 100%;
 	max-width: 325px;
+    width: 100%;
 }

@@ -67,8 +67,9 @@ h5{
     color: #444;
 }
 .block_5 button img{
-    width: 349px;
-    height: 4px;
+    width: 205px;
+    margin-top: -1px;
+    height: 2px;
 }
 
 .line3{
@@ -88,17 +89,26 @@ h5{
 	align-items: center;	
 }
 .block_6 h2.head{
+	text-align: center;
 	margin-top: 200px;	
 	color: #444;
-	line-height: 42px;	
-	margin-bottom: 80px;	
+	max-width:637px;
+	line-height: 42px;		
+}
+.block_6 h4.head{
+	text-align: center;
+	margin-top: 37px;
+	color: #232323;
+	max-width:600px;
+	line-height: 25px;
+	margin-bottom: 80px;
 }
 .block_6 main.num1{
 	display: flex;
 	flex-direction: column;
 	align-items:center;
 	width: 700px;
-    height: 689px;
+    height: auto;
     border-radius: 2px;
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.08);
     background-color: #ffffff;
@@ -109,15 +119,14 @@ h5{
 	font-size: 17px;	
 	line-height: 25px;
 	width: 556px;
-	float: left;
+	display: flow-root;
 	color: #232323;	
 }
-.block_6 main img{
-	width: 20px;	
+.block_6 main img.check{
+	width: 20px;
 	height: 20px;
-	margin-right: 24px;
+	margin: 2px 24px 0px 0px;
 	float:left;
-	margin-top: 2px;			
 }
 .block_6 .content{
 	width: 600px;
@@ -127,12 +136,30 @@ h5{
 	margin-top: 50px;
 	width: 600px;
 }
-.block_6 .content .conteiner{
+.block_6 span.payment{
+	font-size: 17px;
+	line-height: 25px;
+	color: #232323;
+	max-width: 410px;
+	margin-left: 104px;
+	align-self: end;
+}
+.block_6 span.payment h4{
+	display: flow-root;
+	width: auto;
+}
+.block_6 span.payment img.dot{
+	width: 28px;
+    height: 28px;
+    float: left;
+}
+.block_6 .conteiner{
+  margin: 30px 0px 50px;
   width: 500px;
   opacity: 0.54;
   margin-left: 44px;
 }
-.block_6 .content .conteiner span{
+.block_6 .conteiner span{
 	font-size: 14px;
 	font-weight: 400;
 	font-style: italic;
@@ -145,7 +172,7 @@ h5{
   flex-direction: column;
   align-items:center;
   width: 700px;
-  height: 180px;
+  height: auto;
   object-fit: contain;
   border-radius: 2px;
   box-shadow: 0 7px 30px 0 rgba(255, 87, 144, 0.3);
@@ -153,17 +180,18 @@ h5{
 }
 .block_6 .content2{
 	width: 600px;
-	margin-top: 50px;			
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
 .block_6 .detailed{
 	display: none;
 }
 .block_6 main.num2 h4{
-	font-size: 17px;	
+	font-size: 17px;
 	line-height: 25px;
 	width: 456px;
 	float: left;
-	color: #fff;	
+	color: #fff;
 }
 .block_6 .button a h2{
 	font-family: 'Exo 2', sans-serif;
@@ -220,9 +248,9 @@ h4{
     font-size: 19px;
 }
 .block_5 button img{
-	margin-top: 1px;
-    width: 276.6px;
-    height: 4px;
+	margin-top: 2px;
+	width: 161px;
+	height: 2px;
 }
 
 .line3{
@@ -232,33 +260,39 @@ h4{
 	opacity: 0.1;
 	width: 100%;
 	max-width: 5000px;
-	margin-top: 22.5px;
 }
 
 .block_6{
 	background-color: #fff; 
 }
 .block_6 .margin{
-	width: 100%;
-	max-width: 680px;	
+	max-width: 680px;
+	margin: 0px 25px;
 }
-.block_6 h2.head{	
+.block_6 h2.head{
+	text-align: left;
 	color: #444;
 	line-height: 32px;
-	margin-top: 81px;	
-	margin-bottom: 0px;	
+	margin-top: 80px;
+	margin-bottom: 0px;
+}
+.block_6 h4.head{
+	text-align: left;
+	margin-bottom: 0px;
+	margin-top: 25px;
 }
 .block_6 main.num1{
 	display: flex;
 	flex-direction: column;
 	align-items:center;
 	width: 100%;
-    height: auto;
-    border-radius: 2px;
-    box-shadow: none;
-    background-color: #ffffff;
-    text-align: left;
-	margin: 0 auto;	
+	max-width: 600px;
+	height: auto;
+	border-radius: 2px;
+	box-shadow: none;
+	background-color: #ffffff;
+	text-align: left;
+	margin: 0 auto;
 }
 .block_6 main h4{
 	white-space: normal;	
@@ -277,6 +311,12 @@ h4{
 .block_6 main.num2{
   display: none;
 }
+.block_6 span.payment{
+	display: none;
+}
+.block_6 .conteiner{
+	display: none;
+}
 .block_6 main img{
 	width: 20px;	
 	height: 20px;
@@ -284,11 +324,10 @@ h4{
 	float:left;			
 }
 .block_6 .detailed{
-	background: none;
 	border: none;
 	background:none;
 	display: flex;
-	padding: 25px 70px 80px;
+	padding: 25px 44px 80px;
 	width: 100%;
 }
 .block_6 .detailed a{
@@ -304,5 +343,4 @@ h4{
 .block_6 .button{
 	display: none;
 }
-
 }

@@ -52,8 +52,16 @@ h5{
     color: #444;
 }
 .group1 h2.head {
+	margin: 0 auto;
+	max-width:700px;
 	color: #444444;
 	line-height: 42px;
+}
+.group1 h4.head{
+	margin: 30px auto 0px;
+	color: #444444;
+	max-width:600px;
+	line-height: 25px;
 }
 .group1 main{
 	display: flex;
@@ -246,7 +254,7 @@ h4{
 .block_4 main{
 	margin:0 25px;
 	width: auto;
-	align-items: center;
+	align-items: end;
 	width: auto;
 	max-width: 1000px;
 }
@@ -254,7 +262,7 @@ h4{
 	line-height: 32px;
 }
 .group1{
- 	text-align: center;
+ 	text-align: left;
  	background: #fff url("../img/block_4/Group1/mobile/2@2x.png" ) no-repeat center top / cover;
 	color: #fff;
 	border:none;
@@ -267,6 +275,9 @@ h4{
 	color: #444444;
 	line-height: 32px;
 	margin: -6.5px 25px 0px;
+}
+.group1 h4.head {
+	margin: 25px 25px 0px;
 }
 .group1 .numb1{
 	margin-top: 55px;
@@ -291,7 +302,7 @@ h4{
 }
 
 .group2{
- 	text-align: center;
+ 	text-align: left;
  	background: #fff url("../img/block_4/Group2/mobile/3@2x.png" ) no-repeat center top / cover;
 	color: #fff;
 	border:none;
@@ -307,7 +318,7 @@ h4{
 	color: #444444;
 	margin-top: 6px;
 	margin-bottom: 25px;
-	text-align: center;
+	text-align: left;
 }
 .group2 main span{
 	color: #232323;
@@ -317,21 +328,23 @@ h4{
 }
 
 .group3{
- 	text-align: center;
+ 	text-align: left;
  	background: #fff url("../img/block_4/Group3/mobile/4@2x.png" ) no-repeat center top / cover;
-	color: #fff;
-	border:none;
-	outline: none;
-	height: 100%;
-	-webkit-background-size: cover;
-	background-size: cover;
+ 	color: #fff;
+ 	border:none;
+ 	outline: none;
+ 	height: 100%;
+ 	-webkit-background-size: cover;
+ 	background-size: cover;
 }
 .group3 main img{
 	margin-top: 80px;
+	width: 162px;
+	height: 45px;
 }
 .group3 main h2{
 	color: #444444;
-	text-align: center;
+	text-align: left;
 	margin-top: 30px;
 	margin-bottom: 25px;
 }
@@ -340,7 +353,7 @@ h4{
 }
 
 .group4{
- 	text-align: center;
+ 	text-align: left;
  	background: #fff url("../img/block_4/Group4/mobile/5@2x.png" ) no-repeat center top / cover;
 	color: #fff;
 	border:none;
@@ -351,7 +364,7 @@ h4{
 }
 .group4 h2.numb1 {
 	color: #444444;
-	text-align: center;
+	text-align: left;
 	line-height: 32px;
 	margin-top: 80px;
 	margin-bottom: 25px;

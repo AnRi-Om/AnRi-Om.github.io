@@ -89,6 +89,8 @@ h5{
 .block_9{
 	background: #444 url("../img/block_9/7@2x.jpg" ) no-repeat center top / cover;
 	color: #fff;
+	width: 100%;
+
 	height: 1718px;
 	-webkit-background-size: cover;
 	background-size: cover;
@@ -114,13 +116,12 @@ h5{
 	margin-bottom: 101px;
 	line-height: 25px;
 }
-.block_9 .content img.mount{
+.block_9 .content .mountmobi{
 	display: block;
-	width: 870px;
+	background: url(../img/block_9/price@2x.png) no-repeat center/ cover;
+	max-width: 870px;
+	width: 100%;
 	height: 762px;
-}
-.block_9 .content img.mountmobi{
-	display: none;
 }
 .block_9 .content .stroke{
 	display: flex;
@@ -173,6 +174,7 @@ h5{
 .block_9 form{
 	display: flex;
 	flex-direction: column;
+	max-width: 281px;
 	-ms-align-items: center;
 	align-items: center;
 }
@@ -184,7 +186,8 @@ h5{
 	line-height: 22px !important;
 	text-align: center;
 	color: #444;
-	width: 280px;
+	width: 100%;
+	max-width: 280px;
 	height: 54px;
 	border-radius: 2px;
 	border: none;
@@ -227,8 +230,7 @@ input:focus:-ms-input-placeholder { color:transparent; }
 	color: #444;
 }
 .block_9 input[type=submit] {
-	width: 280px;
-	height: 52px;
+	height: 54px;
 	border: none;
 	background: none;
 	font-family: 'Exo 2', sans-serif !important;
@@ -241,16 +243,16 @@ input:focus:-ms-input-placeholder { color:transparent; }
 	margin-top: 20px;
 	align-items: center;
 	background-repeat:no-repeat;
-    background: url(../img/block_9/input@2x.png) no-repeat center top / cover;
-    width: 280px;
+	background: url(../img/block_9/input@2x.png) no-repeat center top / cover;
+	min-width: 280px;
 	height: 56px;
-    font-weight: 800;
-    line-height: 1.47;
-    cursor: pointer;
-    overflow: hidden;
-    outline:none;
-    color: #fff;
-    box-shadow: 0 7px 30px 0 rgba(0, 0, 0, 0.25);
+	font-weight: 800;
+	line-height: 1.47;
+	cursor: pointer;
+	overflow: hidden;
+	outline:none;
+	color: #fff;
+	box-shadow: 0 7px 30px 0 rgba(0, 0, 0, 0.25);
 }
 .block_9 .of{
 	line-height: 24px;
@@ -335,9 +337,6 @@ h4{
 	max-width: 600px;
 	color: #fff;
 }
-.block_9 .content img.mount{
-	display: none;
-}
 .block_9 .content .mountmobi{
 	display: block;
 	width: 100%;
@@ -361,7 +360,7 @@ h4{
 	margin-top: -1310px !important;
 }
 .block_9 .ver2{
-	padding-top: 360px !important;
+	padding-top: 165px !important;
 }
 .block_9 .pricelist h2{
 	font-size: 22px;
@@ -376,19 +375,18 @@ h4{
 	margin-right: 15px;
 }
 .block_9 .pricelist .time{
-	display: none;
-}
-.block_9 .of{
 	line-height: 24px;
-	margin-top: -220px;
+	margin-top: 25px;
 	color: #232323;
 }
+.block_9 .of{
+	display: none;
+}
 .block_9 input[type=text]{
-	margin-top: 114px;
 }
 .block_9 .politic{
 	display: block !important;
-	margin-top: 290px;
+	margin-top: 89px;
 	width: 100%;
 	font-size: 14px;
 	color: #9e9a98;

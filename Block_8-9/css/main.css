@@ -79,15 +79,17 @@ h5{
 	line-height: 25px;
 }
 .block_8 .screen{
-	width: 1040px;
-	height: 905px;
+	max-width: 1040px;
+	width: 90%;
+	max-height: 905px;
+	height: 90%;
 	margin-bottom: 200px;
 }
 
 .block_9{
-	background: #444 url("../img/block_9/Fire_Accelerated_oxidation_Black_background_532520_1280x881@2x.jpg" ) no-repeat center top / cover;
+	background: #444 url("../img/block_9/7@2x.jpg" ) no-repeat center top / cover;
 	color: #fff;
-	height: 1592px;
+	height: 1718px;
 	-webkit-background-size: cover;
 	background-size: cover;
 }
@@ -98,16 +100,27 @@ h5{
 	-ms-align-items: center;
 	align-items: center;
 }
-.block_9 .content h2.head{
+.block_9 .content .head h2{
 	margin-top: 200px;
-	margin-bottom: 48px;
+	margin-bottom: 25px;
 	line-height: 42px;
+	max-width: 700px;
 	color: #fff;
+}
+.block_9 .content .head h2 a{
+	color: #ff5790;
+}
+.block_9 .content .head h4{
+	margin-bottom: 101px;
+	line-height: 25px;
 }
 .block_9 .content img.mount{
 	display: block;
 	width: 870px;
 	height: 762px;
+}
+.block_9 .content img.mountmobi{
+	display: none;
 }
 .block_9 .content .stroke{
 	display: flex;
@@ -217,9 +230,7 @@ input:focus:-ms-input-placeholder { color:transparent; }
 	width: 280px;
 	height: 52px;
 	border: none;
-	border-radius: 2px 2px 0px 0px;
-	padding-bottom: 4px;
-	background: #2c2c2c;
+	background: none;
 	font-family: 'Exo 2', sans-serif !important;
 	font-weight: 700 !important;
 	font-size: 18px !important;
@@ -229,11 +240,10 @@ input:focus:-ms-input-placeholder { color:transparent; }
 .block_9 .button{
 	margin-top: 20px;
 	align-items: center;
-	width: 280px;
-	height: 56px;
 	background-repeat:no-repeat;
-	border-radius: 2px;
-    background:  linear-gradient(to right, #ffc846, #ef578f 57%, #c057cb);
+    background: url(../img/block_9/input@2x.png) no-repeat center top / cover;
+    width: 280px;
+	height: 56px;
     font-weight: 800;
     line-height: 1.47;
     cursor: pointer;
@@ -280,6 +290,7 @@ h3{
     font-size: 12px;
 }
 h4{
+    margin-top: 25px;
     font-size: 17px;
 }
 
@@ -304,23 +315,36 @@ h4{
 }
 
 .block_9{
-	background: #444 url("../img/block_9/mobile/6@2x.png" ) no-repeat center/ cover;
+	background: #444 url("../img/block_9/mobile/7@2x.jpg" ) no-repeat center/ cover;
 	color: #fff;
-	height: 100%;
+	height: auto;
 	-webkit-background-size: cover;
 	background-size: cover;
 }
-.block_9 .content h2.head{
+.block_9 .content .head{
 	position: absolute;
-	margin: 80px 25px;
-	margin-left: -167px;
-	left: 50%;
-	max-width: 316.8px;
+	width: 100%;
+	align-items: center;
+	text-align: center;
+	max-width: 800px;
+	margin: 80px -50%;
+}
+.block_9 .content .head h2{
+	margin: 0 25px;
 	line-height: 32px;
+	max-width: 600px;
 	color: #fff;
 }
 .block_9 .content img.mount{
 	display: none;
+}
+.block_9 .content .mountmobi{
+	display: block;
+	width: 100%;
+	max-width: 468px;
+	height: 1254px;
+	background: url(../img/block_9/mobile/price.jpg) no-repeat center/ cover;
+	margin: 276px auto 0px;
 }
 .block_9 .content .stroke{
 	display: block;
@@ -331,10 +355,13 @@ h4{
 	margin:0 auto !important;
 }
 .block_9 .pricelist .pricehead{
-	margin-top: 138px;
+	margin-top: 0px;
+}
+.block_9 .ver1{
+	margin-top: -1310px !important;
 }
 .block_9 .ver2{
-	padding-top: 225px;
+	padding-top: 360px !important;
 }
 .block_9 .pricelist h2{
 	font-size: 22px;
@@ -360,8 +387,8 @@ h4{
 	margin-top: 114px;
 }
 .block_9 .politic{
-	display: block;
-	margin-top: -80px;
+	display: block !important;
+	margin-top: 290px;
 	width: 100%;
 	font-size: 14px;
 	color: #9e9a98;
@@ -369,7 +396,7 @@ h4{
 	display: none;
 }
 .block_9 h2.ask{
-	margin-top: 322px;
+	margin-top: 50px;
 	font-size: 22px;
 	margin-bottom: 25px;
 	line-height: 32px;
@@ -380,6 +407,6 @@ h4{
 	line-height: 25px;
 	width: 100%;
 	color: #fff;
-	margin-bottom: 145px;
+	margin-bottom: 161px;
 }
 }

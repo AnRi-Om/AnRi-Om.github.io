@@ -260,7 +260,6 @@ h5{
 }
 .header .offer h2{
   max-width: 410px;
-  font-weight: 800;
   line-height: 52px;
   font-size: 42px;
 }
@@ -746,7 +745,6 @@ h5{
 }
 .group1 main h2{
 	color: #444444;
-	margin-top: 32px;
 	margin-bottom: 30px;
 }
 .group1 main h2 a{
@@ -754,10 +752,10 @@ h5{
     color: #ff5790;
 }
 .group1 .numb1{
-	margin-top: 267px;
+	margin-top: 245px;
 }
 .group1 .numb2{
-	margin-bottom: 419px;
+	margin-bottom: 268px;
 }
 
 .group2{
@@ -850,6 +848,7 @@ h5{
 }
 .group3 main h2{
 	color: #444444;
+	max-width: 650px;
 	margin-top: 27px;
 	margin-bottom: 30px;
 }
@@ -1335,6 +1334,7 @@ h4{
 }
 .block_6 .detailed a{
 	text-decoration: none;
+	font-family: 'Exo 2', sans-serif;
 	background:none;
 	color: #ff5790;
 	border-bottom: solid 0.5px #ff5790;
@@ -1671,7 +1671,7 @@ h4{
 	color: #ff5790;
 }
 .block_9 .content .head h4{
-	margin-bottom: 101px;
+	margin: 25px 25px 101px;
 	line-height: 25px;
 }
 .block_9 .content .mountmobi{
@@ -2060,8 +2060,8 @@ border-bottom: 1.5px solid;
 	border-radius: 2px;
 	padding:0px 0px 4px;
 	box-shadow: 0 7px 30px 0 rgba(0, 0, 0, 0.25);
-    background: linear-gradient(to right, #ffc846, #ef578f 57%, #c057cb);
-    margin-bottom: 180px;
+	background: linear-gradient(to right, #ffc846, #ef578f 57%, #c057cb);
+	margin-bottom: 200px;
 }
 
 @media screen and (min-width: 0px) and (max-width: 736px){
@@ -2106,6 +2106,7 @@ border-bottom: 1.5px solid;
 }
 .block_10 .detailed a{
 	display: block;
+	font-family: 'Exo 2', sans-serif;
 	text-decoration: none;
     background: none;
     color: #ff5790;
@@ -2114,6 +2115,14 @@ border-bottom: 1.5px solid;
 .block_10 .answer_txt:target{
 	max-height: 60rem;
 }
+}
+
+.line4{
+	border-bottom: 1px solid;
+	color: #000;
+	opacity: 0.1;
+	width: 100%;
+	max-width: 5000px;
 }
 
 .block_11{
@@ -2133,8 +2142,8 @@ display: contents;
     color: #ff5790;
 }
 .block_11 .head {
-	margin-top: 209.3px;
-	margin-bottom: 106.1px;	
+	margin-top: 200px;
+	margin-bottom: 106.1px;
 	width: 700px;
 	font-size: 32px;
 	color: #444444;

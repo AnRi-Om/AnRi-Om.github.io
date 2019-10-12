@@ -182,13 +182,14 @@ display: contents;
 
 .block_12{
  	text-align: center;
- 	background: #fff url("../img/block_12/7@2x.png" ) no-repeat center top / cover;
-	color: #000;
-	border:none;
-	outline: none;
-	height: 1090px;
-	-webkit-background-size: cover;
-	background-size: cover;
+ 	background: #000 url("../img/block_12/7@2x.png" ) no-repeat center top / cover;
+ 	color: #000;
+ 	border:none;
+ 	outline: none;
+ 	height: auto;
+ 	margin-top: -2px;
+ 	-webkit-background-size: cover;
+ 	background-size: cover;
 }
 .block_12 .numb2 a{
 	text-decoration: none;
@@ -286,6 +287,13 @@ display: contents;
 	opacity: 0.65;
 	font-size: 15px;
 }
+.block_12 .contacts .internet{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+    height: 40px;
+    max-width: 170px;
+}
 .block_12 .firstbtn{
     background-color: Transparent;
     background-repeat:no-repeat;
@@ -312,7 +320,7 @@ display: contents;
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
-    padding: 0;
+    padding: 0px 0px 17px;
     list-style-type: none;
     margin-top: 17px;
     max-width: 926px;
@@ -404,7 +412,7 @@ h4{
 
 	.block_11 .conteiner .slide_img{
 		position: absolute;
-		width: 100%;;
+		width: 100%;
 		height: 100%;
 	}
 	.block_11 .container .slide_img .content{
@@ -582,11 +590,11 @@ label span { font-size: 50pt; }
     height: 4px;
 }
 .block_12{
-  background: #2f5483 url("../img/block_12/mobile/7@2x.png") no-repeat center top / cover;
-  height: auto; 
+  background: #000 url("../img/block_12/mobile/7@2x.png") no-repeat center / cover;
+  height: auto;
 }
 .block_12 .content{
-	margin-left: auto;
+	margin: 0 auto;
 }
 
 
@@ -638,7 +646,7 @@ label span { font-size: 50pt; }
   margin-top: 50px;
   height: 100%;
   padding-bottom: 0.7%;
-  border-top: solid 0.5px rgba(255,255,255,0.2);
+  border-top: solid 1px rgba(255,255,255,0.2);
   background: #000;
   width: 100%;
 }
@@ -647,10 +655,9 @@ label span { font-size: 50pt; }
   justify-content: space-between;
   align-items: center;
   height: 48px;
-  background-image: #000;
   left: 3.5%;
   margin: 0 auto;
-  padding: 0;
+  padding: 0 0 3px;
   list-style-type: none;
   width: 93%;
 }

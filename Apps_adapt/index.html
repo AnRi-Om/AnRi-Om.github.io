@@ -26,10 +26,19 @@
 								<h3><a href="tell: +797776500213">+7 977 650-02-13</a></h3>
 								<span><h4>Телефон, WhatsApp, Telegram</h4></span>
 							</div>
-							<div>
-								<a href="https://vk.com/im?peers=557513382&sel=24973610" target="_blank">
-									<button class=firstbtn>Сколько стоит?</button>
-								</a>
+							<button id="arrest01" class=firstbtn>Сколько стоит?</button>
+							
+							<div id="popup01" >
+								<div class="popup">
+									<div class="close"><img src="img/arrests/close.svg" alt=""></div>
+									<h2 class=heading>Для заказа или консультации напишите ваш номер телефона:</h2>
+									<form action="mailto:v.stankov@creazard.ru" method="GET">
+										<input id="tel" type="text" name="Ваш телефон" placeholder="Ваш телефон">
+										<div class=button><input type="submit" value="Отправить"></div>
+									</form>
+									<h4>Или свяжитесь с нашим менеджером по телефону или WhatsApp:</h4>
+									<h2><a href="tell: +79778508414">+7 977 850-84-14</a></h2>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -85,9 +94,9 @@
 						alt="iOS"> </a>
 					</button>
 				</div>
-				<button class="buy">	
-					<a href="https://vk.com/im?peers=557513382&sel=24973610" target="_blank"> <img class=button src="img/block_1/grad.png"
-					srcset="img/block_1/grad@2x.png 2x, img=/block_1/grad@3x.png 3x" alt="Заказать магазин"> </a>
+				<button id="arrest02" class="buy">	
+					<img class=button src="img/block_1/grad.png"
+					srcset="img/block_1/grad@2x.png 2x, img=/block_1/grad@3x.png 3x" alt="Заказать магазин">
 				</button>
 			</div>
 	</header>
@@ -610,5 +619,6 @@
 		</div>
 	</div>
 
+<script src="js/arrest.js"></script>
 </body>
 </html>

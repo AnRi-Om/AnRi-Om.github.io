@@ -1,12 +1,39 @@
-document.getElementById('arrest01').addEventListener("click", function() {
-	document.getElementById('popup01').style.display = "flex";
-});
+let popupToggle01 = document.getElementById('arrest01'),
+	popupToggle02 = document.getElementById('arrest02'),
+	popupToggle03 = document.getElementById('arrest03'),
+	popupToggle04 = document.getElementById('arrest04'),
+	popupToggle05 = document.getElementById('arrest05'),
+	popup = document.getElementById('popup01'),
+	popupClose = document.querySelector('.close'),
+	formTell = document.getElementById('tel');
 
-document.querySelector('.close').addEventListener("click", function() {
-	document.getElementById('popup01').style.display = "none";
-	document.getElementById('tel').value = "";
-});
+popupToggle01.onclick = function() {
+	popup.style.display = "flex";
+};
 
-document.getElementById('arrest02').addEventListener("click", function() {
-	document.getElementById('popup01').style.display = "flex";
-});
+popupToggle02.onclick = function() {
+	popup.style.display = "flex";
+};
+
+popupToggle03.onclick = function() {
+	popup.style.display = "flex";
+};
+
+popupToggle04.onclick = function() {
+	popup.style.display = "flex";
+};
+
+popupToggle05.onclick = function() {
+	popup.style.display = "flex";
+};
+
+popupClose.onclick = function() {
+	popup.style.display = "none";
+	formTell.value = "";
+};
+
+window.onclick = function (e) {
+	if(e.target == popup) {
+	popup.style.display = "none";
+	}
+}

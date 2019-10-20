@@ -154,7 +154,6 @@ h5{
 .tab .content{
   display: flex;
   max-width: 600px;
-  margin: 12.5px auto;
 }
 .tab .button a h2{
   font-family: 'Exo 2', sans-serif;
@@ -2754,7 +2753,7 @@ label span { font-size: 50pt; }
     color: #fff;
 }
 .block_11 .black button img.line{
-  margin-top: 0;
+    margin-top: 0;
     width: 272px;
     height: 4px;
 }

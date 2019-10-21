@@ -155,6 +155,10 @@ h5{
   display: flex;
   max-width: 600px;
 }
+.tab .content1{
+  display: flex;
+  max-width: 600px;
+}
 .tab .button a h2{
   font-family: 'Exo 2', sans-serif;
     line-height: 22px;

@@ -7,18 +7,20 @@ let btnTab01 = document.getElementById('tab01'),
 
 
 btnTab01.onclick = function() {
-	btnTab01.style.background = "#fff";
-	linebtn01.style.display = "block";
-	btnTab02.style.background = "#f6f6f6";
-	linebtn02.style.display = "none";
+	btnTab01.style.background = "#f6f6f6";
+	linebtn01.style.display = "none";
 	tabContent01.style.display = "flex";
+
+	btnTab02.style.background = "#fff";
+	linebtn02.style.display = "block";
 	tabContent02.style.display = "none";
 };
 btnTab02.onclick = function() {
-	btnTab02.style.background = "#fff";
-	linebtn02.style.display = "block";
-	btnTab01.style.background = "#f6f6f6";
-	linebtn01.style.display = "none";
+	btnTab02.style.background = "#f6f6f6";
+	linebtn02.style.display = "none";
 	tabContent02.style.display = "flex";
+
+	btnTab01.style.background = "#fff";
+	linebtn01.style.display = "block";
 	tabContent01.style.display = "none";
 };

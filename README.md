@@ -17,3 +17,5 @@
 [08 Block_5-6](https://anri-om.github.io/Block_5-6/ "адаптив 5")
 
 [09 Block_7](https://anri-om.github.io/Block_7/ "адаптив 6")
+
+[10 Sample](https://anri-om.github.io/Sample/ "Пример")

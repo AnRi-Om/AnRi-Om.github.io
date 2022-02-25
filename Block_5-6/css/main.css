@@ -106,21 +106,22 @@ h5{
 .block_6 main.num1{
 	display: flex;
 	flex-direction: column;
+	padding: 25px;
 	align-items:center;
 	width: 700px;
-    height: auto;
-    border-radius: 2px;
-    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.08);
-    background-color: #ffffff;
-    text-align: left;
-	margin: 0 auto;	
+	height: auto;
+	border-radius: 2px;
+	box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.08);
+	background-color: #ffffff;
+	text-align: left;
+	margin: 0 auto;
 }
 .block_6 main h4{
-	font-size: 17px;	
+	font-size: 17px;
 	line-height: 25px;
 	width: 556px;
 	display: flow-root;
-	color: #232323;	
+	color: #232323;
 }
 .block_6 main img.check{
 	width: 20px;
@@ -140,8 +141,8 @@ h5{
 	font-size: 17px;
 	line-height: 25px;
 	color: #232323;
-	max-width: 410px;
-	margin-left: 104px;
+	/* max-width: 410px; */
+	margin-left: 84px;
 	align-self: end;
 }
 .block_6 span.payment h4{
